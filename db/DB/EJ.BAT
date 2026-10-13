@@ -1,0 +1,1 @@
+type f:\f1\eject.txt > prn

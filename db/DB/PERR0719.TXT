@@ -1,0 +1,11 @@
+        CONTRATOS DE PERFORMANCE M.I. RECEBIDOS DE 01/07/19 A 31/07/19
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   24/01/19  PI.1-001/19    DREYFUS SAO PAULO      2455.05
+   27/03/19  PI.1-002/19    DREYFUS SAO PAULO     12343.87
+   29/05/19  PI.1-003/19    DREYFUS SAO PAULO      5376.50    20175.42
+
+
+
+                                           TOTAL  :           20175.42

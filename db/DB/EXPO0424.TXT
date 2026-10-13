@@ -1,0 +1,70 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/04/24 A 30/04/24
+
+   DATA      CONTRATO       VENDEDOR
+
+   08/01/24  V-1000/24      BERTUOL             
+   14/04/23  A-1003/23      CJ INTL.            
+   19/09/23  A-1010/23      INTERGRAIN (SODRU)  
+   19/09/23  AZ-1010AZ/23   INTERGRAIN (SODRU)  
+   08/12/23  A-1013/23      BTG PACTUAL         
+   03/01/24  A-3001/24      CJ INTL             
+   17/01/24  A-3011/24      COFCO BRAZIL        
+   19/01/24  A-3015/24      AMAGGI              
+   29/01/24  A-3017/24      NOVAAGRI            
+   07/02/24  A-3026/24      INTERGRAIN CO.      
+   15/05/23  A-3103/23      AMAGGI              
+   16/06/23  A-3130/23      BTG PACTUAL         
+   07/07/23  A-3149/23      INTERGRAIN CO.      
+   11/07/23  A-3152/23      CARGILL             
+   11/07/23  A-3153/23      INTERGRAIN CO.      
+   14/07/23  A-3157/23      INTERGRAIN CO.      
+   11/10/23  A-3184/23      CARGILL             
+   16/11/23  A-3194/23      ZEN-NOH GRAIN       
+   14/09/22  A-3197/22      ENGELHART           
+   30/11/23  A-3205/23      BUNGE SA            
+   29/12/23  A-3228/23      CJ INTL             
+   08/01/24  A-40002/24     BUNGE SA            
+   01/02/24  A-40014/24     SAFRAS AGROIND.     
+   09/02/24  A-40025/24     BUNGE SA            
+   09/02/24  A-40026/24     OLFAR               
+   16/02/24  A-40036/24     BUNGE SA            
+   02/03/23  A-40080/23     BTG PACTUAL         
+   26/04/23  G-40186/23     CJ INTL.            
+   27/04/23  A-40187/23     BTG PACTUAL         
+   02/06/23  A-40229/23     INTERGRAIN (SODRU)  
+   31/08/23  A-40326/23     BTG PACTUAL         
+   03/10/23  A-40356/23     BTG PACTUAL         
+   04/10/23  A-40361/23     BTG PACTUAL         
+   20/10/23  A-40380/23     INTERGRAIN CO.      
+   23/10/23  A-40381/23     INTERGRAIN CO.      
+   08/11/23  A-40384/23     INTERGRAIN CO.      
+   28/11/23  A-40400/23     CARGILL             
+   28/11/23  A-40405/23     COFCO BRAZIL        
+   29/11/23  A-40406/23     COFCO BRAZIL        
+   29/11/23  A-40409/23     BE8 S.A.            
+   30/11/23  A-40410/23     COFCO BRAZIL        
+   07/12/23  A-40413/23     BTG PACTUAL         
+   19/12/23  A-40419/23     OLFAR               
+   21/12/23  A-40421/23     BIANTRADE LLP       
+   02/02/24  H-5000/24      OLFAR SA            
+   21/09/22  H-5043/22      BUNGE SA            
+   07/07/23  H-5047/23      AMAGGI EUROPE       
+   07/07/23  H-5048/23      AMAGGI EUROPE       
+   26/07/23  H-5051/23      AMAGGI EUROPE       
+   20/09/23  H-5056/23      CJ INTL.            
+   06/10/23  H-5063/23      AMAGGI EUROPE       
+   08/03/24  NY-7027/24     TOPWAY TRADING      
+   17/04/23  NY-7061/23     CJ INTL.            
+   21/06/23  NY-7082/23     TGO TRADING         
+   06/10/23  NY-7120/23     COFCO RESOURCES     
+   24/10/23  NY-7134/23     COAMO INTL.         
+   25/10/23  NY-7135/23     OLAM GLOBAL         
+   25/10/23  NY-7136/23     AMAGGI SA           
+   01/11/23  NY-7141/23     OLAM GLOBAL         
+   13/11/23  NY-7147/23     ADM INTL.           
+   29/11/23  NY-7158/23     COAMO               
+   14/12/23  NY-7163/23     AMAGGI S.A.         
+   18/01/24  AZ-8008/24     BE8 S.A.            
+   23/01/24  AZ-8009/24     COAMO               
+   28/07/23  AZ-8093/23     BTG PACTUAL         
+   09/11/23  AZ-8135/23     INTERGRAIN (SODRU)  

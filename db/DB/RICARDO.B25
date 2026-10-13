@@ -1,0 +1,85 @@
+03/02/25-09:43:24=Incluida Taxa do dia 31/01/25
+03/02/25-10:21:05=Consulta GRAOS  M.I. - Cliente GEE 25
+03/02/25-10:21:09=Consulta GRAOS  M.I. - Cliente GEE 24
+03/02/25-10:24:24=Incluido Ctr.S.2-043/25
+03/02/25-10:25:14=Alterado Ctr.S.2-043/25= Obs1:de ** COMISSO DE p/ ** COMISSAO DE R$ 3.000,00 = REF. AUXILIO E ACOMPANHAMENTO Obs2:de  p/ DE MERCADO DIARIO DE SOJA MERCADO INTERNO ** Emb1:de   /  /   p/ 01/01/25 Emb2:de   /  /   p/ 31/01/25 
+03/02/25-10:51:28=Alterado Ctr.AZ-8006/25= Obs2:de *** COMMISSION : 50% ARY / 50% BETO *** p/ *** COMMISSION : 50% ME / 50% MI *** 
+03/02/25-10:51:45=Alterado Ctr.AZ-8006/25= Brok:de 1.000+0.000 Bank=  Part=1.00 p/ 1.000+0.000 Bank=  Part=0.50 
+03/02/25-10:51:55=Alterado Ctr.A-8006A/25= Obs2:de *** COMMISSION : 50% ARY / 50% BETO *** p/ *** COMMISSION : 50% ME / 50% MI *** 
+03/02/25-11:31:46=Consulta M.E. - Data      
+03/02/25-11:32:20=Consulta M.E. Filtro = data>=ctod("01/01/25").and. "H" $sigla 25
+03/02/25-11:37:10=Consulta M.E. Filtro = bank = "H" .and. shpmt1>=ctod("01/12/24").and.shpmt1<ctod("01/01/25") 24
+03/02/25-11:37:57=Consulta M.E. Filtro = bank = "H" .and. shpmt1>=ctod("01/12/24").and.shpmt1<ctod("01/01/25") 25
+03/02/25-16:53:40=Consulta GRAOS  M.I. Periodo de 01/01/25 a 31/01/25
+03/02/25-17:37:08=Entrou na Pag.3 do Ctr.H-5014/24 
+03/02/25-18:21:12=Gerada listagem por Cliente de Contratos M.E. em Aberto
+03/02/25-18:29:17=Gerada listagem de Sub-totais por mˆs
+03/02/25-18:30:08=Gerada listagem de Sub-totais por mˆs
+03/02/25-18:31:45=Gerada listagem de Sub-totais por mˆs
+04/02/25-15:00:12=Alterado Ctr.AZ-1007AZ/24= Qtty:de 40000.00 p/ 41073.11 
+05/02/25-09:28:12=Incluida Taxa do dia 03/02/25
+05/02/25-09:28:38=Incluida Taxa do dia 04/02/24
+06/02/25-09:34:06=Incluida Taxa do dia 05/02/25
+06/02/25-11:35:25=Gerada listagem de Contratos M.E. em Aberto
+06/02/25-11:36:00=Gerada listagem de Contratos M.E. em Aberto
+06/02/25-11:36:14=Gerada listagem de Contratos M.E. em Aberto
+06/02/25-11:37:50=Gerada listagem de Contratos M.E. em Aberto
+06/02/25-11:38:15=Gerada listagem de Contratos M.E. em Aberto
+06/02/25-16:24:49=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-16:37:53=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-16:41:00=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-17:33:30=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-17:34:15=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-18:00:34=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-18:01:32=Consulta FARELO  M.I. - Cliente A 25
+06/02/25-18:02:19=Consulta FARELO  M.I. - Cliente A 25
+07/02/25-09:28:58=Incluida Taxa do dia 06/02/25
+07/02/25-11:16:57=M‚dia de Faturamento - Base 01/25 = 12 Meses
+07/02/25-11:25:09=Impressa Prev.Receb de 01/01/25 a 31/03/25 Ano 25
+07/02/25-11:29:24=Impresso NFEs abertas de 01/01/25 a 31/03/25 Ano 25
+07/02/25-11:30:58=Impresso NFEs abertas de 01/01/25 a 30/04/25 Ano 25
+07/02/25-11:33:34=Impresso NFEs abertas de 01/01/25 a 31/03/25 Ano 25
+10/02/25-10:21:45=Incluida Taxa do dia 07/02/25
+10/02/25-18:38:15=Impresso Demonstrativo de RICARDO 01/25
+11/02/25-09:30:37=Incluida Taxa do dia 10/02/25
+12/02/25-09:38:07=Incluida Taxa do dia 11/02/25
+13/02/25-09:30:41=Incluida Taxa do dia 12/02/25
+14/02/25-09:27:50=Incluida Taxa do dia 13/02/25
+14/02/25-09:34:36=Alterado Ctr.O.1-115/24= Ctr:de O.1-115/24 p/ O.9-115/24 
+14/02/25-09:34:58=Alterado Ctr.O.1-118/24= Ctr:de O.1-118/24 p/ O.9-118/24 
+14/02/25-09:35:11=Alterado Ctr.O.1-122/24= Ctr:de O.1-122/24 p/ O.9-122/24 
+14/02/25-09:35:27=Alterado Ctr.O.1-130/24= Ctr:de O.1-130/24 p/ O.9-130/24 
+14/02/25-09:35:40=Alterado Ctr.O.1-015/25= Ctr:de O.1-015/25 p/ O.9-015/25 
+14/02/25-10:25:44=Incluido Cliente 7067-P = TGL
+17/02/25-09:31:12=Incluida Taxa do dia 14/02/25
+18/02/25-09:33:31=Incluida Taxa do dia 17/02/25
+19/02/25-09:29:39=Incluida Taxa do dia 18/02/25
+19/02/25-10:11:54=Alterado Ctr.NY-7156/24= Qtty:de 66000.00 p/ 67934.99 
+19/02/25-10:12:16=Alterado Ctr.NY-7157/24= Qtty:de 66000.00 p/ 65422.23 
+19/02/25-10:12:52=Alterado Ctr.NY-7160/24= Qtty:de 63000.00 p/ 67126.00 
+20/02/25-09:34:17=Incluida Taxa do dia 19/02/25
+21/02/25-09:24:37=Incluida Taxa do dia 20/02/25
+21/02/25-16:02:08=Consulta M.E. - Long/Short COFCO 25
+21/02/25-16:03:14=M‚dia de Faturamento - Base 01/25 = 12 Meses
+21/02/25-16:03:37=M‚dia de Recebimentos - Base 12/24 = 12 Meses
+24/02/25-11:08:36=Incluida Taxa do dia 21/02/25
+24/02/25-11:08:50=Alterada Taxa do Dia 21/02/25
+25/02/25-10:50:22=Incluida Taxa do dia 24/02/25
+25/02/25-13:11:43=Alterado Ctr.A-3238/24= Brok:de 0.000+0.500 Bank=4 Part=0.50 p/ 0.000+0.500 Bank=4 Part=1.00 
+25/02/25-13:13:02=Recebimento A-3238/24 =  Vl.Tot:de 308661.41 p/ 30866.41 Vl.Com:de 15433.21 p/ 30866.41 
+25/02/25-13:14:56=Alterado Ctr.H-5014/24= Brok:de 0.000+0.250 Bank=4 Part=0.60 p/ 0.250+0.000 Bank=  Part=0.60 
+25/02/25-13:16:18=Gerado Mapa Rec. M.E. de 01/02/25 a 28/02/25
+25/02/25-13:37:16=Gerado Mapa Rec. M.E. de 01/02/25 a 28/02/25
+25/02/25-13:37:28=Impresso Mapa Rec. M.E. de 01/02/25 a 28/02/25
+25/02/25-13:57:24=Recebimento A-1007/24 =  Vl.Tot:de 20536.56 p/ 10268.28 Vl.Com:de 10268.28 p/ 6845.52 
+25/02/25-13:57:56=Recebimento AZ-1007AZ/24 =  Vl.Tot:de 20536.56 p/ 10268.28 Vl.Com:de 10268.28 p/ 6845.52 
+25/02/25-14:02:18=Gerado Mapa Rec. M.E. de 01/02/25 a 28/02/25
+25/02/25-14:02:40=Impresso Mapa Rec. M.E. de 01/02/25 a 28/02/25
+25/02/25-14:21:01=Alterado Demonstrativo de RICARDO 01/25
+25/02/25-14:21:21=Alterado Demonstrativo de RICARDO 02/25
+25/02/25-14:21:24=Visualizado Demonstrativo de RICARDO 02/25
+25/02/25-14:21:55=Alterado Demonstrativo de UXRICARD 02/25
+25/02/25-15:50:07=Visualizado Demonstrativo de CARLA 01/25
+25/02/25-15:55:26=Visualizado Demonstrativo de LELIS 02/25
+26/02/25-09:34:39=Incluida Taxa do dia 25/02/25
+26/02/25-09:35:01=Alterada Taxa do Dia 25/02/25

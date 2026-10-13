@@ -1,0 +1,15 @@
+        CONTRATOS DE FARELO M.I. RECEBIDOS DE 01/02/25 A 28/02/25
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   23/12/24  F.6-059/24     ADM JOACABA           24164.28    24164.28
+
+   15/01/25  F.6-002/25     AGRARIA GUARAPUAVA    37800.00
+   19/04/24  F.6-024/24     AGRARIA GUARAPUAVA    99649.50   137449.50
+
+   03/01/25  RK/F.7-001/25  TRES TENTOS IJUI        379.28
+   16/12/24  RK/F.7-058/24  TRES TENTOS IJUI        378.40      757.68
+
+
+
+                                           TOTAL  :          162371.46

@@ -1,0 +1,25 @@
+        CONTRATOS DE OLEO M.I. RECEBIDOS DE 01/09/24 A 30/09/24
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   18/07/24  O.1-083/24     BIANCHINI RIO GRANDE   8145.00
+   01/08/24  O.1-091/24     BIANCHINI RIO GRANDE   8025.00
+   07/08/24  O.1-093/24     BIANCHINI RIO GRANDE   6625.00    22795.00
+
+   25/04/24  O.1-053/24     CJ SELECTA ARAGUARI    3788.40
+   22/05/24  O.1-060/24     CJ SELECTA ARAGUARI    5645.50     9433.90
+
+   17/07/24  O.8-080/24     DREYFUS A. ARAGUAIA   27280.46    27280.46
+
+   18/06/24  O.8-072/24     DREYFUS JATAI          1151.18
+   03/07/24  O.8-075/24     DREYFUS JATAI         28633.16
+   03/07/24  O.8-076/24     DREYFUS JATAI         26670.51
+   17/07/24  O.8-081/24     DREYFUS JATAI           923.79    57378.64
+
+   20/06/24  O.1-073/24     GRANOL OSVALDO CRUZ   12800.00    12800.00
+
+   17/06/24  O.6-070/24     SOLAE ESTEIO          30300.00    30300.00
+
+
+
+                                           TOTAL  :          159988.00

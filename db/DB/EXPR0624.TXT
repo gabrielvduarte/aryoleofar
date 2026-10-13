@@ -1,0 +1,176 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/06/24 A 30/06/24
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                 PGMTO        US$            US$
+   07/07/23  NY-7091/23     ADM INTL.            NF          16847.99    16847.99
+
+   06/06/23  A-3118/23      AGB INTL.            NF           1250.00
+   16/06/23  A-3133/23      AGB INTL.            NF           2500.00
+   18/10/23  A-3186/23      AGB INTL.            NF           1250.00
+   19/10/23  A-3189/23      AGB INTL.            NF           2500.00     7500.00
+
+   16/06/23  A-3134/23      AGROGRAIN            NF           5000.00
+   17/11/23  A-3197/23      AGROGRAIN            NF           2500.00
+   28/11/23  A-40403/23     AGROGRAIN            NF            750.00
+   28/11/23  A-40404/23     AGROGRAIN            NF            500.00
+   06/12/23  A-40412/23     AGROGRAIN            NF           1250.00
+   18/12/23  A-40417/23     AGROGRAIN            NF           1250.00
+   18/12/23  A-40418/23     AGROGRAIN            NF           1250.00
+   19/12/23  A-40420/23     AGROGRAIN            NF           1250.00
+   09/01/24  AZ-8004/24     AGROGRAIN            NF           1000.00
+   09/01/24  AZ-8005/24     AGROGRAIN            NF           1000.00
+   17/01/24  AZ-8007/24     AGROGRAIN            NF           2000.00    17750.00
+
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF           1270.50
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF            288.30
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF           6534.00
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF            882.17
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF            809.97
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF           7029.51
+   15/06/23  A-3125/23      ALIANCA AGRICOLA     NF           3399.00    20213.45
+
+   23/02/24  A-1001/24      AMAGGI               NF          12650.00
+   19/03/24  A-1002/24      AMAGGI               NF            550.00
+   23/02/24  A-40045/24     AMAGGI               NF           3490.15    16690.15
+
+   14/07/23  NY-7093/23     AMAGGI INTL.         CALSTON     14501.50    14501.50
+
+   24/01/24  NY-7010/24     AMAGGI SA            CALSTON     14367.28
+   03/02/23  NY-7019/23     AMAGGI SA            CALSTON     17653.64
+   26/02/24  NY-7022/24     AMAGGI SA            CALSTON     15168.76
+   04/11/22  NY-7066/22     AMAGGI SA            CALSTON     17627.81
+   29/06/23  NY-7088/23     AMAGGI SA            CALSTON     14588.87    79406.36
+
+   19/12/23  AZ-8149/23     AVERE COMM.          NF           1985.00     1985.00
+
+   09/01/24  A-3007/24      BTG PACTUAL          NF           2500.00
+   29/01/24  A-3018/24      BTG PACTUAL          NF           3750.00
+   14/02/24  A-3032/24      BTG PACTUAL          NF           3750.00
+   06/03/24  A-3064/24      BTG PACTUAL          NF           1250.00
+   28/06/23  A-3141/23      BTG PACTUAL          NF           1250.00
+   18/07/23  A-3158/23      BTG PACTUAL          NF           1250.00
+   31/08/23  A-3173/23      BTG PACTUAL          NF           2500.00
+   16/01/24  A-40006/24     BTG PACTUAL          NF           1500.00
+   09/02/24  A-40023/24     BTG PACTUAL          NF            500.00
+   22/02/24  A-40041/24     BTG PACTUAL          NF           1250.00
+   22/02/24  A-40043/24     BTG PACTUAL          NF           1250.00
+   28/02/24  A-40046/24     BTG PACTUAL          NF           1250.00
+   28/02/24  A-40048/24     BTG PACTUAL          NF            250.00
+   01/03/24  A-40050/24     BTG PACTUAL          NF           2500.00
+   16/11/23  A-40392/23     BTG PACTUAL          NF           1250.00
+   09/01/24  NY-7000/24     BTG PACTUAL          NF           6583.75
+   09/01/24  AZ-8006/24     BTG PACTUAL          NF           1000.00    33583.75
+
+   19/01/24  A-3014/24      BUNGE SA             NF           1250.00
+   09/02/24  A-40024/24     BUNGE SA             NF           1500.00     2750.00
+
+   01/02/24  S-3020/24      C. VALE LUXEMBOURG   NF           2500.00
+   14/02/24  S-3031/24      C. VALE LUXEMBOURG   NF           2500.00
+   29/02/24  S-3048/24      C. VALE LUXEMBOURG   NF           5000.00
+   29/02/24  S-3052/24      C. VALE LUXEMBOURG   NF           5000.00    15000.00
+
+   20/02/24  A-3036/24      CARGILL              NF           1250.00
+   20/02/24  A-3037/24      CARGILL              NF           1250.00
+   20/02/24  A-3038/24      CARGILL              NF           1250.00
+   04/07/23  A-3146/23      CARGILL              NF           1250.00
+   09/11/23  A-3190/23      CARGILL              NF           3750.00
+   13/11/23  A-3191/23      CARGILL              NF           3750.00
+   16/11/23  A-3195/23      CARGILL              NF           2500.00
+   27/11/23  A-3202/23      CARGILL              NF           1250.00
+   09/01/24  A-40003/24     CARGILL              NF           1750.00
+   10/01/24  A-40005/24     CARGILL              NF          13202.39
+   19/01/24  A-40007/24     CARGILL              NF           1250.00
+   25/01/24  A-40010/24     CARGILL              NF           1250.00
+   07/02/24  A-40020/24     CARGILL              NF           2500.00
+   08/02/24  A-40022/24     CARGILL              NF           1250.00
+   05/03/24  A-40056/24     CARGILL              NF            500.00    37952.39
+
+   22/08/23  NY-7108/23     CARGILL INTL.        NF          15845.13    15845.13
+
+   09/02/24  A-3030/24      CAVALCA INTL.        NF           1250.00     1250.00
+
+   07/02/24  A-3027/24      CJ INTL.             NF           2500.00
+   29/02/24  A-3049/24      CJ INTL.             NF           2500.00
+   29/02/24  A-3053/24      CJ INTL.             NF           1250.00
+   12/12/23  A-3209/23      CJ INTL.             NF           2500.00     8750.00
+
+   29/02/24  AZ-8017/24     COAMO                CALSTON       934.00
+   04/04/24  AZ-8025/24     COAMO                CALSTON      1000.00     1934.00
+
+   14/03/24  A-3075/24      COFCO BRAZIL         NF           2500.00
+   28/06/23  A-3142/23      COFCO BRAZIL         NF           5000.00
+   30/01/24  A-40012/24     COFCO BRAZIL         NF           1250.00
+   05/02/24  A-40019/24     COFCO BRAZIL         NF            250.00
+   07/06/23  A-40234/23     COFCO BRAZIL         NF           1250.00    10250.00
+
+   14/03/24  A-3078/24      CZARNIKOW GROUP      NF           3750.00
+   19/12/23  A-3220/23      CZARNIKOW GROUP      NF            500.00     4250.00
+
+   02/02/24  A-40016/24     DREYFUS              NF           2250.00
+   16/02/24  A-40035/24     DREYFUS              NF           1000.00
+   06/03/24  A-40059/24     DREYFUS              NF           1500.00
+   06/03/24  A-40060/24     DREYFUS              NF           1000.00
+   28/09/23  A-40350/23     DREYFUS              NF           2500.00
+   19/10/23  A-40378/23     DREYFUS              NF           2500.00    10750.00
+
+   16/11/23  NY-7152/23     ETG COMM.            NF          16575.00    16575.00
+
+   12/03/24  A-3070/24      INTERGRAIN           NF           2500.00     2500.00
+
+   19/01/24  A-3016/24      INTERGRAIN (SODRU)   NF           1250.00
+   29/02/24  A-3054/24      INTERGRAIN (SODRU)   NF           1250.00
+   06/03/24  A-3063/24      INTERGRAIN (SODRU)   NF           1250.00
+   13/03/24  A-3072/24      INTERGRAIN (SODRU)   NF           2500.00
+   15/06/23  A-3128/23      INTERGRAIN (SODRU)   NF          22966.37
+   15/06/23  A-3128/23      INTERGRAIN (SODRU)   NF            333.33
+   12/03/24  A-40062/24     INTERGRAIN (SODRU)   NF            500.00
+   13/09/23  AZ-8104/23     INTERGRAIN (SODRU)   NF           1000.00
+   13/09/23  AZ-8105/23     INTERGRAIN (SODRU)   NF           1000.00
+   22/09/23  AZ-8113/23     INTERGRAIN (SODRU)   NF           1000.00
+   05/10/23  AZ-8117/23     INTERGRAIN (SODRU)   NF           1000.00
+   06/11/23  AZ-8134/23     INTERGRAIN (SODRU)   NF           2000.00    36049.70
+
+   22/02/24  A-3043/24      INTERGRAIN CO.       NF           1250.00
+   22/02/24  A-3044/24      INTERGRAIN CO.       NF           1250.00
+   06/03/24  A-3061/24      INTERGRAIN CO.       NF           1250.00
+   14/07/23  A-3156/23      INTERGRAIN CO.       NF           1250.00
+   10/11/23  A-40385/23     INTERGRAIN CO.       NF           1500.00
+   14/11/23  A-40388/23     INTERGRAIN CO.       NF           1000.00
+   17/04/24  AZ-8030/24     INTERGRAIN CO.       NF           1000.00
+   19/04/24  AZ-8033/24     INTERGRAIN CO.       NF           1000.00
+   27/10/23  AZ-8131/23     INTERGRAIN CO.       NF           1000.00
+   09/11/23  AZ-8137/23     INTERGRAIN CO.       NF           3000.00    13500.00
+
+   13/03/24  NY-7032/24     NOVAAGRI             NF           7877.76     7877.76
+
+   09/08/23  A-3165/23      OLAM GLOBAL          NF           1250.00
+   29/11/23  A-40407/23     OLAM GLOBAL          NF           1250.00
+   12/01/24  NY-7002/24     OLAM GLOBAL          CALSTON      7645.92
+   15/01/24  NY-7004/24     OLAM GLOBAL          CALSTON      7422.18
+   03/08/23  NY-7104/23     OLAM GLOBAL          CALSTON      8500.73    26068.83
+
+   11/01/23  NY-7006/23     PERDUE               NF            172.57      172.57
+
+   09/02/24  A-40027/24     REWIR SA             CALSTON       690.00
+   09/02/24  A-40029/24     REWIR SA             CALSTON      1750.00
+   22/02/24  A-40042/24     REWIR SA             CALSTON       500.00
+   18/10/23  A-40375/23     REWIR SA             CALSTON      1500.00
+   07/12/23  A-40414/23     REWIR SA             CALSTON      1000.00     5440.00
+
+   19/10/23  A-3188/23      ROYAL AGRO INTL.     NF           2500.00
+   30/11/23  A-3204/23      ROYAL AGRO INTL.     NF           1250.00     3750.00
+
+   31/08/23  A-3174/23      SIERENTZ             NF           1250.00
+   01/08/23  NY-7103/23     SIERENTZ             NF          16930.88    18180.88
+
+   23/02/24  A-3045/24      SYNGENTA AVC         NF          35377.23
+   14/12/23  A-3211/23      SYNGENTA AVC         NF           1250.00
+   19/12/23  A-3219/23      SYNGENTA AVC         NF           1250.00    37877.23
+
+   21/07/23  NY-7094/23     TGO TRADING          NF          12357.28    12357.28
+
+   06/03/24  A-40058/24     VITERRA              NF            500.00      500.00
+
+
+
+                                           TOTAL  :            498058.97

@@ -1,0 +1,26 @@
+        CONTRATOS DE OLEO M.I. RECEBIDOS DE 01/09/21 A 30/09/21
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   19/05/21  O.1-096/21     ADM CAMPO GRANDE       2560.71
+   20/05/21  O.1-098/21     ADM CAMPO GRANDE       8347.50    10908.21
+
+   20/05/21  O.1-099/21     ADM RONDONOPOLIS       5672.32     5672.32
+
+   04/05/21  O.1-090/21     BREJEIRO ORLANDIA      5322.00
+   19/05/21  O.1-097/21     BREJEIRO ORLANDIA      2596.50
+   12/05/21  O.1-100/21     BREJEIRO ORLANDIA      2596.00    10514.50
+
+   21/06/21  O.1-110/21     COOP. LAR CAARAPO     31205.63    31205.63
+
+   13/04/21  O.1-065/21     COOP. LAR CEU AZUL    48135.56
+   15/04/21  O.1-068/21     COOP. LAR CEU AZUL    55384.65
+   19/04/21  O.1-073/21     COOP. LAR CEU AZUL    32061.58
+   02/07/21  O.1-120/21     COOP. LAR CEU AZUL    31000.00   166581.79
+
+   20/07/21  O.1-124/21     COOPERALFA CHAPECO    33961.62
+   13/08/21  O.1-132/21     COOPERALFA CHAPECO    17000.00    50961.62
+
+
+
+                                           TOTAL  :          275844.07

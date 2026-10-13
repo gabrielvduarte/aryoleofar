@@ -1,0 +1,12 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/09/07 A 30/09/07
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+04/01/07  T.3-001/07     FERTIMOURAO            3060.00
+18/01/07  T.3-004/07     FERTIMOURAO               0.00     3060.00
+
+02/07/07  T.3-034/07     I. RIEDI               1000.00     1000.00
+
+
+
+                                        TOTAL  :            4060.00

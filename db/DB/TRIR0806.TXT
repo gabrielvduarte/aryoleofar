@@ -1,0 +1,16 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/08/06 A 31/08/06
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+31/07/06  T.3-042/06     COCARI                  547.50      547.50
+
+12/06/06  T.3-028/06     I.RIEDI                 532.50
+22/06/06  T.3-031/06     I.RIEDI                1790.00     2322.50
+
+20/06/06  T.3-030/06     VILELA                 1200.00
+26/06/06  T.3-033/06     VILELA                 1200.00
+03/07/06  T.3-035/06     VILELA                 2000.00     4400.00
+
+
+
+                                        TOTAL  :            7270.00

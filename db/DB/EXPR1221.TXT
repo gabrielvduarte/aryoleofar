@@ -1,0 +1,178 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/12/21 A 31/12/21
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                 PGMTO        US$            US$
+   29/04/21  NY-7035/21     ADM INTL.            NF          16536.00
+   17/09/21  NY-7063/21     ADM INTL.            NF          18095.29
+   29/10/21  NY-7067/21     ADM INTL.            NF           9100.00
+   02/11/21  NY-7069/21     ADM INTL.            NF           8639.17    52370.46
+
+   11/08/21  A-3251/21      AGB INTL.            NF           1250.00     1250.00
+
+   26/02/21  A-40073/21     AGRARIA              NF            500.00
+   09/03/21  A-40090/21     AGRARIA              NF            500.00
+   05/04/21  A-40130/21     AGRARIA              NF            250.00
+   07/05/21  A-40192/21     AGRARIA              NF            500.00
+   28/05/21  A-40238/21     AGRARIA              NF           1250.00
+   28/05/21  A-40239/21     AGRARIA              NF           1250.00
+   10/06/21  A-40252/21     AGRARIA              NF            250.00
+   21/07/21  A-40279/21     AGRARIA              NF            500.00
+   18/08/21  A-40294/21     AGRARIA              NF            250.00
+   19/08/21  A-40298/21     AGRARIA              NF            500.00     5750.00
+
+   12/02/21  A-40044/21     AMAGGI               NF           1750.00
+   07/04/21  A-40138/21     AMAGGI               NF           1250.00
+   09/06/21  A-40244/21     AMAGGI               NF            750.00
+   12/07/21  A-40271/21     AMAGGI               NF            250.00     4000.00
+
+   19/02/21  H-5022/21      AMAGGI EUROPE        HANS          450.00
+   09/07/21  H-5050/21      AMAGGI EUROPE        HANS          450.00      900.00
+
+   14/05/21  A-40210/21     AMAGGI INTL          NF            250.00
+   07/01/21  AZ-8002/21     AMAGGI INTL          NF           2000.00     2250.00
+
+   04/06/20  H-5075/20      BUNGE AGRIT          HANS          450.00      450.00
+
+   11/03/21  A-40098/21     BUNGE AGRIT.         NF           1250.00
+   12/03/21  A-40100/21     BUNGE AGRIT.         NF            750.00
+   01/04/21  A-40122/21     BUNGE AGRIT.         NF           1250.00
+   05/04/21  A-40125/21     BUNGE AGRIT.         NF            750.00
+   11/08/21  A-40289/21     BUNGE AGRIT.         NF           1000.00
+   21/08/20  H-5091/20      BUNGE AGRIT.         HANS          750.00     5750.00
+
+   21/10/20  A-3346/20      BUNGE AGRITRADE      NF           5000.00
+   10/05/21  A-40200/21     BUNGE AGRITRADE      NF            500.00
+   12/05/21  A-40201/21     BUNGE AGRITRADE      NF            500.00
+   13/05/21  A-40205/21     BUNGE AGRITRADE      NF           1250.00
+   09/10/20  A-40542/20     BUNGE AGRITRADE      NF            500.00
+   13/10/20  A-40543/20     BUNGE AGRITRADE      NF           2500.00
+   14/05/21  H-5046/21      BUNGE AGRITRADE      HANS          300.00
+   14/05/21  H-5048/21      BUNGE AGRITRADE      HANS          750.00    11300.00
+
+   01/06/21  A-3171/21      CARGILL              NF           1250.00
+   06/08/21  A-3248/21      CARGILL              NF           1250.00
+   11/08/21  A-3249/21      CARGILL              NF           1250.00
+   10/09/21  A-3276/21      CARGILL              NF            323.25
+   07/01/21  A-40005/21     CARGILL              NF           1250.00
+   04/12/20  A-40625/20     CARGILL              NF           1250.00     6573.25
+
+   24/09/21  NY-7064/21     CHS INC.             NF          17895.23    17895.23
+
+   13/05/21  A-3152/21      CJ INTL              NF           1250.00     1250.00
+
+   04/02/21  H-200/21       CJ INTL ASIA         HANS        19800.00
+   31/07/20  A-3283/20      CJ INTL ASIA         NF           1250.00
+   31/07/20  A-3284/20      CJ INTL ASIA         NF           1250.00
+   23/10/20  A-3351/20      CJ INTL ASIA         NF           1250.00
+   04/11/20  A-3359/20      CJ INTL ASIA         NF           1250.00    24800.00
+
+   15/01/21  A-3013/21      CJ INTL.             NF           1250.00
+   27/01/21  A-3019/21      CJ INTL.             NF           2500.00
+   31/03/21  A-3101/21      CJ INTL.             NF           2500.00
+   09/04/21  A-3115/21      CJ INTL.             NF           2500.00
+   09/04/21  A-3116/21      CJ INTL.             NF           2500.00
+   06/05/21  A-3141/21      CJ INTL.             NF           2500.00
+   08/06/21  A-3176/21      CJ INTL.             NF           2500.00
+   23/12/20  A-3400/20      CJ INTL.             NF           2500.00
+   08/01/20  A-40006/20     CJ INTL.             NF           1250.00
+   02/03/21  A-40074/21     CJ INTL.             NF           1000.00
+   02/03/21  A-40075/21     CJ INTL.             NF            750.00
+   02/03/21  A-40076/21     CJ INTL.             NF            750.00
+   30/04/21  GS-6002/21     CJ INTL.             NF           1250.00    23750.00
+
+   11/08/21  A-40288/21     COAMO                CALSTON      2934.00
+   05/10/21  AZ-8035/21     COAMO                CALSTON      1000.00
+   05/10/21  AZ-8036/21     COAMO                CALSTON      1000.00     4934.00
+
+   03/09/21  A-40310/21     COAMO INTL           CALSTON      1184.00
+   18/08/21  AZ-8030/21     COAMO INTL           CALSTON      1000.00     2184.00
+
+   12/02/20  A-3065/20      DREYFUS              NF          32165.00
+   04/03/21  A-3065/21      DREYFUS              NF           3750.00
+   16/03/21  A-3082/21      DREYFUS              NF           2500.00
+   23/03/21  A-3089/21      DREYFUS              NF           1250.00
+   17/03/20  A-3108/20      DREYFUS              NF          30250.00
+   09/04/21  A-3113/21      DREYFUS              NF           1250.00
+   15/04/21  A-3121/21      DREYFUS              NF           2500.00
+   13/05/21  A-3151/21      DREYFUS              NF           1250.00
+   24/05/21  A-3162/21      DREYFUS              NF           1250.00
+   17/06/21  A-3195/21      DREYFUS              NF           1250.00
+   01/06/20  A-3211/20      DREYFUS              NF           1250.00
+   01/06/20  A-3212/20      DREYFUS              NF           1250.00
+   03/08/21  A-3242/21      DREYFUS              NF           1250.00
+   20/07/20  A-3261/20      DREYFUS              NF           1250.00
+   20/07/20  A-3262/20      DREYFUS              NF           1250.00
+   18/08/20  A-3302/20      DREYFUS              NF           3750.00
+   25/09/20  A-3325/20      DREYFUS              NF           1250.00
+   27/01/21  A-40026/21     DREYFUS              NF           1250.00
+   25/02/21  A-40064/21     DREYFUS              NF            500.00
+   08/03/21  A-40084/21     DREYFUS              NF          30520.02
+   25/03/21  A-40112/21     DREYFUS              NF           2500.00
+   25/03/21  A-40113/21     DREYFUS              NF           2125.00
+   25/03/21  A-40114/21     DREYFUS              NF           4500.00
+   31/03/21  A-40119/21     DREYFUS              NF           2500.00
+   07/04/21  A-40133/21     DREYFUS              NF           2500.00
+   07/04/21  A-40136/21     DREYFUS              NF           2500.00
+   04/05/21  A-40176/21     DREYFUS              NF           1000.00
+   13/05/21  A-40204/21     DREYFUS              NF            750.00
+   17/05/21  A-40212/21     DREYFUS              NF           2500.00
+   18/05/21  A-40217/21     DREYFUS              NF           5000.00
+   19/05/21  A-40225/21     DREYFUS              NF            500.00
+   03/06/21  A-40240/21     DREYFUS              NF           3750.00
+   10/09/20  A-40472/20     DREYFUS              NF           2500.00
+   21/10/20  A-40563/20     DREYFUS              NF          29665.04
+   10/03/21  H-5032/21      DREYFUS              HANS         2700.00   185925.06
+
+   15/10/21  A-3298/21      FUENTESAUCO          NF           2500.00     2500.00
+
+   23/02/21  H-5023/21      INTERGRAIN (SODRU)   HANS          450.00
+   19/11/20  H-5101/20      INTERGRAIN (SODRU)   HANS          150.00
+   19/11/20  H-5102/20      INTERGRAIN (SODRU)   HANS          150.00      750.00
+
+   25/08/21  AZ-1009/21     NOVAAGRI             NF           6063.59
+   25/08/21  AZ-1009/21     NOVAAGRI             NF           6063.59
+   08/01/21  A-40007/21     NOVAAGRI             NF            750.00    12877.18
+
+   08/06/21  A-3184/21      NUTRADE              NF           2050.00     2050.00
+
+   11/05/21  A-3146/21      OLAM INTL            NF           2500.00
+   14/05/21  A-3154/21      OLAM INTL            NF           1250.00
+   17/06/20  A-3235/20      OLAM INTL            NF           1250.00
+   06/08/20  A-3290/20      OLAM INTL            NF           7500.00
+   06/08/20  A-3292/20      OLAM INTL            NF           1250.00
+   11/09/20  A-3315/20      OLAM INTL            NF           1250.00
+   17/11/20  A-3380/20      OLAM INTL            NF           3750.00
+   09/12/20  A-3393/20      OLAM INTL            NF           2500.00
+   21/07/20  H-5084/20      OLAM INTL            NF            300.00
+   21/07/20  H-5085/20      OLAM INTL            NF            300.00
+   21/07/20  H-5086/20      OLAM INTL            NF            300.00
+   21/07/20  H-5087/20      OLAM INTL            NF            300.00    22450.00
+
+   05/08/20  A-3288/20      OLAM INTL.           NF           2500.00
+   07/08/20  A-3294/20      OLAM INTL.           NF           5000.00
+   13/08/20  A-3299/20      OLAM INTL.           NF           7500.00
+   19/08/20  A-3306/20      OLAM INTL.           NF          10000.00
+   08/09/20  A-3313/20      OLAM INTL.           NF           1250.00
+   26/03/21  A-40115/21     OLAM INTL.           NF           1250.00
+   01/09/21  A-40304/21     OLAM INTL.           NF           1250.00
+   02/09/21  A-40307/21     OLAM INTL.           NF           1250.00
+   08/09/21  A-40311/21     OLAM INTL.           NF           1250.00
+   07/08/20  A-40421/20     OLAM INTL.           NF            250.00
+   03/07/20  NY-7055/20     OLAM INTL.           CALSTON     18009.93    49509.93
+
+   01/09/21  A-40305/21     OLFAR                NF            750.00
+   02/09/21  A-40306/21     OLFAR                NF           1250.00
+   09/09/21  A-40312/21     OLFAR                NF            750.00     2750.00
+
+   14/08/18  A-3494/18      RISA                 NF           5000.00     5000.00
+
+   27/06/18  A-3449/18      RISA SA              NF          15000.00    15000.00
+
+   11/02/21  NY-7011/21     UNITED GRAIN CORP    CALSTON     17693.03
+   29/07/21  NY-7052/21     UNITED GRAIN CORP    CALSTON     17660.82    35353.85
+
+   18/06/21  NY-7045/21     UNITED GRAIN CORP.   CALSTON     16775.00    16775.00
+
+
+
+                                           TOTAL  :            516347.96

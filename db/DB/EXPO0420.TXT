@@ -1,0 +1,26 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/04/20 A 30/04/20
+
+   DATA      CONTRATO       VENDEDOR
+
+   03/05/19  A-3156/19      AGB INTL.           
+   03/05/19  A-3157/19      NOVAAGRI            
+   13/05/19  A-3190/19      NOVAAGRI            
+   20/09/19  A-3347/19      NOVAAGRI            
+   03/10/19  A-3365/19      INTERGRAIN          
+   24/10/19  A-3396/19      NOVAAGRI            
+   09/01/20  A-40013/20     DREYFUS             
+   19/06/19  A-40316/19     INTERGRAIN          
+   26/07/19  A-40343/19     GAVILON             
+   26/07/19  A-40344/19     GAVILON             
+   23/08/19  A-40411/19     INTERGRAIN          
+   17/10/19  A-40499/19     INTERGRAIN          
+   18/10/19  A-40500/19     INTERGRAIN          
+   14/11/19  A-40541/19     INTERGRAIN          
+   19/11/19  A-40553/19     INTERGRAIN          
+   20/11/19  A-40555/19     INTERGRAIN          
+   20/11/19  A-40556/19     INTERGRAIN          
+   22/11/19  A-40572/19     BIANTRADE           
+   11/12/19  A-40593/19     GAVILON             
+   21/01/20  H-5010/20      COPAGRI             
+   20/11/19  H-5106/19      INTERGRAIN          
+   05/02/20  AZ-8015/20     INTERGRAIN          

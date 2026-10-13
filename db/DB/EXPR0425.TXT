@@ -1,0 +1,87 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/04/25 A 30/04/25
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                 PGMTO        US$            US$
+   13/01/25  A-3014/25      AGRIBRASIL           NF           1250.00     1250.00
+
+   19/11/24  A-3295/24      AGRIBRASIL GLOBAL    NF           2500.00     2500.00
+
+   02/07/24  A-3185/24      AGROGRAIN            NF          25000.00
+   02/07/24  A-3185/24      AGROGRAIN            NF           8529.71
+   18/09/24  A-3244/24      AGROGRAIN            NF           1250.00
+   25/11/24  A-3305/24      AGROGRAIN            NF           1250.00
+   24/11/24  A-3307/24      AGROGRAIN            NF           2500.00
+   27/11/24  A-3308/24      AGROGRAIN            NF           1250.00
+   20/12/24  A-3334/24      AGROGRAIN            NF           1250.00
+   08/01/25  A-40020/25     AGROGRAIN            NF           1250.00
+   18/11/24  A-40415/24     AGROGRAIN            NF            500.00
+   09/12/24  A-40445/24     AGROGRAIN            NF            250.00
+   30/12/24  A-40461/24     AGROGRAIN            NF            250.00
+   10/01/25  AZ-8003/25     AGROGRAIN            NF           4000.00
+   12/11/24  AZ-8113/24     AGROGRAIN            NF           2000.00
+   26/11/24  AZ-8120/24     AGROGRAIN            NF           1000.00
+   27/12/24  AZ-8133/24     AGROGRAIN            NF           3000.00    53279.71
+
+   21/02/25  A-3072/25      ALIANCA AGRICOLA     NF           6666.67     6666.67
+
+   21/11/24  A-40425/24     AMAGGI               NF           6000.00
+   16/12/24  H-5028/24      AMAGGI               NF          15784.33    21784.33
+
+   09/01/25  A-3005/25      AVERE                NF           2500.00     2500.00
+
+   04/02/25  A-3044/25      AVERE COMM.          NF          32500.00
+   14/11/24  A-3291/24      AVERE COMM.          NF           1250.00
+   13/12/24  A-3327/24      AVERE COMM.          NF           1250.00    35000.00
+
+   19/08/24  A-40261/24     BTG PACTUAL          NF            750.00
+   20/08/24  A-40265/24     BTG PACTUAL          NF            250.00
+   21/11/24  A-40421/24     BTG PACTUAL          NF           1250.00
+   29/11/24  A-40441/24     BTG PACTUAL          NF           1250.00     3500.00
+
+   11/06/24  A-40171/24     BUNGE SA             NF           2500.00
+   30/08/24  A-40283/24     BUNGE SA             NF           1250.00
+   30/08/24  A-40286/24     BUNGE SA             NF           1250.00
+   19/11/24  NY-7156/24     BUNGE SA             NF           7812.53    12812.53
+
+   30/10/24  A-3276/24      CARGILL              NF           3750.00     3750.00
+
+   20/12/23  A-3222/23      CHS INC.             NF           2500.00     2500.00
+
+   07/01/25  A-3004/25      CJ INTL.             NF           5000.00
+   09/01/25  A-3007/25      CJ INTL.             NF           1250.00
+   13/01/25  A-3013/25      CJ INTL.             NF           1250.00
+   24/07/24  S-3199/24      CJ INTL.             NF           1250.00
+   19/09/24  A-3247/24      CJ INTL.             NF           1250.00
+   22/11/24  A-3303/24      CJ INTL.             NF           1250.00
+   04/12/24  A-3311/24      CJ INTL.             NF           2500.00
+   26/12/24  A-3335/24      CJ INTL.             NF           1250.00
+   12/12/24  A-40450/24     CJ INTL.             NF            250.00    15250.00
+
+   03/02/25  AZ-8015/25     COAMO AGROINDL.      NF           1000.00     1000.00
+
+   11/02/25  AZ-8025/25     COAMO AGROINDUSTRIAL NF           1000.00     1000.00
+
+   06/01/25  A-40005/25     COAMO INTL.          CALSTON       744.00
+   23/01/25  AZ-8011/25     COAMO INTL.          CALSTON       994.00
+   27/01/25  AZ-8012/25     COAMO INTL.          CALSTON      1000.00
+   28/01/25  AZ-8013/25     COAMO INTL.          CALSTON      1000.00     3738.00
+
+   28/06/24  AZ-8068/24     COCAMAR TRADING      NF           1000.00     1000.00
+
+   14/11/24  A-3289/24      ETG COMM.            NF           2500.00     2500.00
+
+   22/11/24  A-3302/24      INTERGRAIN (SODRU)   NF          16666.67
+   22/11/24  A-3302/24      INTERGRAIN (SODRU)   NF           6647.63    23314.30
+
+   05/12/24  A-40444/24     OLFAR                NF           1750.00     1750.00
+
+   01/10/24  A-40340/24     REWIR S.A.           CALSTON       250.00
+   21/11/24  A-40422/24     REWIR S.A.           CALSTON      1250.00     1500.00
+
+   16/10/24  A-3262/24      TAGUI INTL.          NF           1250.00     1250.00
+
+   18/12/24  A-3329/24      VILELA E MACHADO     NF           1000.00     1000.00
+
+
+
+                                           TOTAL  :            198845.54

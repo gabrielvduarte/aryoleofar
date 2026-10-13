@@ -1,0 +1,19 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/01/07 A 31/12/07
+
+DATA      CONTRATO       VENDEDOR
+
+08/02/06  T.3-010/06     VASSOLER            
+03/03/06  T.3-012/06     VASSOLER            
+20/06/06  T.3-029/06     VASSOLER            
+07/09/06  T.3-050/06     VASSOLER            
+18/10/06  T.3-052/06     VASSOLER            
+25/10/06  T.3-054/06     I.RIEDI             
+25/10/06  T.3-055/06     I.RIEDI             
+26/10/06  T.3-057/06     CORTEZ              
+26/10/06  T.3-058/06     CORTEZ              
+07/11/06  T.3-062/06     VILELA              
+09/11/06  T.3-063/06     CORTEZ              
+09/11/06  T.3-064/06     VILELA              
+14/11/06  T.3-066/06     VASSOLER            
+21/11/06  T.3-068/06     TZION               
+19/12/06  T.3-070/06     VILELA              

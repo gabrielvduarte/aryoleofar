@@ -1,0 +1,26 @@
+        CONTRATOS DE OLEO M.I. RECEBIDOS DE 01/02/26 A 28/02/26
+
+   DATA      CONTRATO       VENDEDOR
+
+   05/01/26  O.8-002/26     DREYFUS JATAI       
+   07/01/26  O.1-007/26     CELENA GIRUA        
+   09/01/26  O.1-011/26     COOPERALFA CHAPECO  
+   15/01/26  O.9-014/26     SEBO SOL S.J.R.P.   
+   23/04/25  O.1-062/25     BTG PACTUAL A.ARAGUA
+   22/05/25  O.1-078/25     BTG PACTUAL A.ARAGUA
+   28/08/25  O.1-119/25     CJ SELECTA ARAGUARI 
+   31/10/25  O.1-155/25     ADM IPAMERI         
+   10/11/25  O.1-160/25     ADM IPAMERI         
+   24/11/25  O.1-166/25     ADM IPAMERI         
+   24/11/25  O.1-166/25     ADM IPAMERI         
+   26/11/25  O.1-167/25     CELENA GIRUA        
+   02/12/25  O.1-168/25     ADM IPAMERI         
+   03/12/25  O.1-169/25     ADM IPAMERI         
+   16/12/25  O.1-176/25     ADM IPAMERI         
+   16/12/25  O.1-176/25     ADM IPAMERI         
+   23/12/25  O.1-177/25     ADM IPAMERI         
+   29/12/25  O.1-178/25     ADM IPAMERI         
+   03/04/25  O.1-179/25     AGROGRAIN           
+   25/04/25  O.1-180/25     AGROGRAIN           
+   25/04/25  O.1-181/25     AGROGRAIN           
+   28/04/25  O.1-182/25     COAMO               

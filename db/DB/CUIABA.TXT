@@ -1,0 +1,33 @@
+P03/06/05                                                                                            Pag.  1
+CONTRATOS  EM  ABERTO  - GRAOS  M.I.
+--------------------------------------------------------------------------------------------------------------
+DATA DO   NUMERO DO         VENDEDOR              COMPRADOR             QUANTIDADE         PRECO    COMISSAO
+CONTRATO  CONTRATO
+--------------------------------------------------------------------------------------------------------------
+07/03/05  AC/S.7-076/05     OLI BALTAZAR LERMEN   ENCOMIND                 1500.00         25.36        0.250
+09/03/05  AC/S.7-078/05     NILZA MARIA BARROS    ENCOMIND                  600.00         25.00        0.250
+09/03/05  AC/S.7-085/05     BINOTTI               ENCOMIND                 3000.00         25.00        0.250
+11/03/05  AC/S.7-091/05     BINOTTI               SPERAFICO                1500.00         29.00        0.250
+23/03/05  AC/S.7-112/05     BINOTTI               ENCOMIND                 2000.00         30.00        0.250
+05/04/05  AC/S.7-131/05     ANTONIO AUGUSTO       ENCOMIND                  120.00         35.00        0.250
+06/04/05  AC/S.7-133/05     BINOTTI               ENCOMIND                  500.00         24.00        0.250
+11/04/05  AC/S.7-140/05     BINOTTI               SPERAFICO                 600.00         34.00        0.250
+18/04/05  AC/S.7-156/05     BINOTTI               SPERAFICO                 521.77         35.00        0.250
+17/05/05  AC/S.7-249/05     PASSOS                ENCOMIND                  600.00         24.90        0.250
+18/05/05  AC/S.7-253/05     PEDRO SALIES          ENCOMIND                   59.83         22.56        0.250
+18/05/05  AC/S.7-254/05     NILO GONZATTI         ENCOMIND                  299.17         22.56        0.250
+18/05/05  AC/S.7-255/05     CLOVIS LUIZ FRASSETO  ENCOMIND                   17.95         22.56        0.250
+18/05/05  AC/S.7-256/05     PAULA M. SCHEFFEL     ENCOMIND                    5.98         22.56        0.250
+19/05/05  AC/S.7-259/05     PASSOS                ENCOMIND                  600.00         24.80        0.250
+24/05/05  AC/S.7-272/05     ILDO FERRONATO        ENCOMIND                   60.00         22.16        0.250
+24/05/05  AC/S.7-273/05     GEMA DAMASSANI        ENCOMIND                   30.00         22.16        0.250
+25/05/05  AC/S.7-281/05     ANTONIO DONIZETTE     GRANULE                   577.24         23.90        0.250
+25/05/05  AC/S.7-282/05     NELSO DALBEN          ADM                       210.00         22.60        0.250
+26/05/05  AC/S.7-284/05     BINOTTI               GRANULE                  2220.00         24.10        0.250
+30/05/05  AC/S.7-287/05     PASSOS                ENCOMIND                  654.00         24.60        0.250
+01/06/05  AC/S.7-299/05     MAURO ALBERTO RIEDI   OVETRIL                   300.00         24.20        0.250
+01/06/05  AC/S.7-302/05     JOSE THOME PREDIGER   GRANULE                  1200.00         24.40        0.250
+01/06/05  AC/S.7-303/05     OLI BALTAZAR LERMEN   SPERAFICO                 300.00         25.30        0.250
+02/06/05  AC/S.7-308/05     PASSOS                ENCOMIND                  120.00         25.00        0.250
+02/06/05  AC/S.7-304/05     JOSE THOME PREDIGER   SPERAFICO                 120.00         23.10        0.250
+

@@ -1,0 +1,18 @@
+        CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/12/18 A 31/12/18
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   09/02/18  CN.1-051/18    AGROP. CHAPADA         2358.34
+   09/02/18  CN.1-052/18    AGROP. CHAPADA         1424.99     3783.33
+
+   12/04/18  CN.1-208/18    C. VALE SORRISO        8458.33
+   11/09/18  S.1-313/18     C. VALE SORRISO        3139.58    11597.91
+
+   06/03/18  CN.1-109/18    CRUZEIRO DO SUL       10733.47
+   20/09/18  S.1-323/18     CRUZEIRO DO SUL       33428.11
+   26/09/18  S.1-333/18     CRUZEIRO DO SUL        1033.75
+   22/10/18  S.1-339/18     CRUZEIRO DO SUL         530.83    45726.16
+
+
+
+                                           TOTAL  :           61107.40

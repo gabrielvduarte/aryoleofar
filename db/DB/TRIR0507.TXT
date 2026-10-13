@@ -1,0 +1,16 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/05/07 A 31/05/07
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+09/02/07  T.3-008/07     CORTEZ                  750.00      750.00
+
+16/02/07  T.3-011/07     TZION                  2717.28     2717.28
+
+10/01/06  T.3-004/06     VASSOLER                607.50
+03/04/06  T.3-017/06     VASSOLER               2310.00
+16/04/07  T.3-019/07     VASSOLER                  0.00
+27/07/06  T.3-041/06     VASSOLER               1975.00     4892.50
+
+
+
+                                        TOTAL  :            8359.78

@@ -1,0 +1,77 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/12/24 A 31/12/24
+
+   DATA      CONTRATO       VENDEDOR
+
+   07/03/24  A-3068/24      BUNGE SA            
+   03/04/24  A-3097/24      BUNGE SA            
+   03/04/24  A-3097/24      BUNGE SA            
+   03/04/24  A-3098/24      BUNGE SA            
+   03/04/24  A-3098/24      BUNGE SA            
+   24/04/24  A-3125/24      BUNGE SA            
+   29/05/24  A-3158/24      BUNGE SA            
+   13/06/24  A-3172/24      BUNGE SA            
+   24/07/24  A-3198/24      BUNGE SA            
+   06/08/24  A-3213/24      BUNGE SA            
+   06/08/24  A-3213/24      BUNGE SA            
+   21/08/24  A-3226/24      OLAM GLOBAL         
+   27/08/24  A-3230/24      BIANTRADE           
+   04/09/24  A-3237/24      BIANTRADE           
+   18/09/24  A-3242/24      BIANTRADE           
+   25/09/24  A-3252/24      BIANTRADE           
+   15/03/24  A-40066/24     BUNGE SA            
+   05/04/24  A-40086/24     BUNGE SA            
+   05/04/24  A-40088/24     BUNGE SA            
+   10/05/24  A-40121/24     INTERGRAIN          
+   10/05/24  A-40123/24     AGROGRAIN           
+   13/05/24  A-40127/24     INTERGRAIN          
+   14/05/24  A-40133/24     INTERGRAIN          
+   16/05/24  A-40138/24     INTERGRAIN          
+   29/05/24  A-40143/24     INTERGRAIN CO.      
+   31/05/24  A-40147/24     INTERGRAIN CO.      
+   31/05/24  A-40150/24     INTERGRAIN CO.      
+   07/06/24  A-40155/24     BUNGE SA            
+   07/06/24  A-40157/24     INTERGRAIN CO.      
+   07/06/24  A-40160/24     BUNGE SA            
+   11/06/24  A-40168/24     INTERGRAIN CO.      
+   11/06/24  A-40172/24     BUNGE SA            
+   20/06/24  A-40184/24     INTERGRAIN CO.      
+   20/06/24  A-40187/24     INTERGRAIN CO.      
+   20/06/24  A-40190/24     INTERGRAIN CO.      
+   21/06/24  A-40195/24     INTERGRAIN CO.      
+   21/06/24  A-40198/24     INTERGRAIN CO.      
+   02/07/24  A-40205/24     AGROGRAIN           
+   24/07/24  A-40222/24     DREYFUS             
+   26/07/24  A-40225/24     DREYFUS             
+   30/07/24  A-40230/24     INTERGRAIN CO.      
+   09/08/24  A-40245/24     AGROGRAIN           
+   13/08/24  A-40251/24     AGROGRAIN           
+   14/08/24  A-40257/24     BUNGE SA            
+   30/08/24  A-40277/24     AGROGRAIN           
+   30/08/24  A-40280/24     INTERGRAIN CO.      
+   03/09/24  A-40293/24     COAMO               
+   04/09/24  A-40294/24     COAMO               
+   18/07/24  H-5015/24      COFCO BRAZIL        
+   13/08/24  H-5017/24      COFCO BRAZIL        
+   15/08/24  H-5018/24      COFCO BRAZIL        
+   08/05/24  NY-7075/24     AMAGGI S/A          
+   17/05/24  NY-7082/24     OLAM GLOBAL         
+   05/06/24  NY-7101/24     TGO TRADING         
+   21/06/24  NY-7104/24     AMAGGI SA           
+   02/07/24  NY-7109/24     TGO TRADING         
+   02/07/24  NY-7110/24     BUNGE               
+   08/07/24  NY-7112/24     OLAM GLOBAL         
+   10/07/24  NY-7115/24     AMAGGI SA           
+   11/07/24  NY-7116/24     AMAGGI SA           
+   23/07/24  NY-7119/24     NOVAAGRI            
+   13/08/24  NY-7123/24     UNITED GRAIN CO.    
+   25/10/23  NY-7135/23     OLAM GLOBAL         
+   25/10/23  NY-7135/23     OLAM GLOBAL         
+   11/09/24  NY-7136/24     UNITED GRAIN        
+   19/09/24  NY-7139/24     UNITED GRAIN        
+   04/10/24  NY-7144/24     UNITED GRAIN CORP.  
+   14/05/24  AZ-8040/24     INTERGRAIN          
+   27/06/24  AZ-8060/24     AGROGRAIN           
+   15/07/24  AZ-8070/24     DREYFUS             
+   31/07/24  AZ-8078/24     AGROGRAIN           
+   28/08/24  AZ-8090/24     AGROGRAIN           
+   03/10/24  AZ-8096/24     COAMO               

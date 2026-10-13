@@ -1,0 +1,23 @@
+        CONTRATOS DE OLEO M.I. RECEBIDOS DE 01/01/25 A 31/01/25
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   08/10/24  O.1-106/24     ADM IPAMERI              26.24       26.24
+
+   17/12/24  O.1-129/24     CELENA GIRUA           5866.98     5866.98
+
+   19/07/24  O.1-087/24     CJ SELECTA ARAGUARI    2487.01
+   16/09/24  O.1-102/24     CJ SELECTA ARAGUARI    3395.30     5882.31
+
+   03/09/24  O.1-099/24     COCAMAR MARINGA        1745.03     1745.03
+
+   23/12/24  O.1-130/24     SEBO SOL S.J.R.P.      7815.34     7815.34
+
+   08/11/24  O.1-115/24     SEBO SOL S.J.R.PRETO   3365.10     3365.10
+
+   08/10/24  O.6-105/24     SOLAE ESTEIO          32880.00
+   11/11/24  O.6-116/24     SOLAE ESTEIO          40200.00    73080.00
+
+
+
+                                           TOTAL  :           97781.00

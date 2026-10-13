@@ -1,0 +1,9 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/10/04 A 31/10/04
+
+DATA      CONTRATO       VENDEDOR
+
+25/08/04  T.3-085/04     COROL               
+30/08/04  T.3-086/04     COOPERMOTA          
+30/08/04  T.3-087/04     BUNGE**CTR CANCELADO
+09/09/04  T.3-092/04     COROL               
+09/09/04  T.3-093/04     COROL               

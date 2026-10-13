@@ -1,0 +1,81 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/09/23 A 30/09/23
+
+   DATA      CONTRATO       VENDEDOR
+
+   14/06/23  A-1007/23      AGB INTL.           
+   29/09/22  A-1009/22      CJ INTL.            
+   29/09/22  AZ-1009AZ/22   CJ INTL.            
+   17/01/23  A-3017/23      OLAM GLOBAL         
+   22/02/23  A-3047/23      BUNGE SA            
+   22/02/23  A-3048/23      CJ INTL.            
+   22/02/23  A-3048/23      CJ INTL.            
+   23/02/23  A-3049/23      BUNGE SA            
+   08/03/23  A-3060/23      BUNGE SA            
+   15/03/23  A-3068/23      AGROGRAIN           
+   21/03/23  A-3072/23      BUNGE SA            
+   21/03/23  A-3072/23      BUNGE SA            
+   23/03/23  A-3075/23      BUNGE SA            
+   13/04/23  A-3087/23      AGROGRAIN           
+   13/04/23  A-3088/23      CJ INTL.            
+   17/04/23  A-3094/23      ROYAL AGRI INTL.    
+   17/04/23  A-3095/23      BUNGE SA            
+   17/04/23  A-3095/23      BUNGE SA            
+   30/05/23  A-3111/23      AVERE COMM.         
+   30/05/23  A-3113/23      OLAM GLOBAL         
+   13/06/23  A-3123/23      ZEN-NOH GRAIN       
+   08/06/22  A-3146/22      BUNGE SA            
+   09/02/23  A-40063/23     AGROGRAIN           
+   15/02/23  A-40070/23     INTERGRAIN CO.      
+   07/03/23  A-40091/23     INTERGRAIN CO.      
+   09/03/23  A-40103/23     AGROGRAIN           
+   09/03/23  A-40104/23     AGROGRAIN           
+   09/03/23  A-40108/23     AGROGRAIN           
+   16/03/23  A-40126/23     INTERGRAIN CO.      
+   27/03/23  A-40138/23     AGROGRAIN           
+   29/03/23  A-40140/23     AGROGRAIN           
+   29/03/23  A-40142/23     AGROGRAIN           
+   04/04/23  A-40148/23     INTERGRAIN CO.      
+   05/04/23  A-40150/23     INTERGRAIN CO.      
+   05/04/23  A-40152/23     INTERGRAIN CO.      
+   13/04/23  A-40155/23     INTERGRAIN CO.      
+   13/04/23  A-40158/23     INTERGRAIN CO.      
+   14/04/23  A-40162/23     AGROGRAIN           
+   11/05/23  A-40199/23     AGROGRAIN           
+   16/05/23  A-40200/23     AGROGRAIN           
+   23/05/23  A-40212/23     AGROGRAIN           
+   25/05/23  A-40218/23     CJ INTL.            
+   06/06/23  A-40230/23     CJ INTL.            
+   11/07/23  A-40280/23     OLFAR               
+   11/07/23  A-40281/23     OLFAR               
+   14/07/23  A-40284/23     OLFAR               
+   07/11/22  A-40338/22     AGROGRAIN           
+   07/11/22  A-40339/22     AGROGRAIN           
+   16/11/22  A-40351/22     GRANOL              
+   16/11/22  A-40352/22     GRANOL              
+   04/01/23  H-5003/23      OLAM GLOBAL         
+   13/04/23  H-5027/23      GRANOL              
+   11/02/22  NY-7008/22     TGO TRADING         
+   17/01/23  NY-7008/23     CJ INTL             
+   26/01/23  NY-7012/23     AMAGGI SA           
+   26/05/22  NY-7036/22     TGO TRADING         
+   02/06/22  NY-7039/22     AMAGGI              
+   15/03/23  NY-7049/23     BTG PACTUAL         
+   30/08/22  NY-7051/22     TGO TRADING         
+   07/09/22  NY-7053/22     TGO TRADING         
+   10/04/23  NY-7058/23     CHS INC.            
+   18/04/23  NY-7062/23     NOVAAGRI            
+   22/05/23  NY-7071/23     AMAGGI SA           
+   23/12/22  NY-7076/22     TGO TRADING         
+   11/09/23  NY-7111/23     TGO TRADING         
+   11/01/23  AZ-8004/23     CJ INTL ASIA        
+   19/01/23  AZ-8012/23     AGROGRAIN           
+   27/02/23  AZ-8029/23     INTERGRAIN CO.      
+   11/04/23  AZ-8049/23     AGROGRAIN           
+   12/04/23  AZ-8051/23     AGROGRAIN           
+   26/04/23  AZ-8061/23     AGROGRAIN           
+   03/05/23  AZ-8066/23     BALDO ENCANTADO     
+   28/07/22  AZ-8072/22     AGROGRAIN           
+   18/05/23  AZ-8073/23     AGROGRAIN           
+   24/05/23  AZ-8076/23     AGROGRAIN           
+   25/05/23  AZ-8077/23     AGROGRAIN           
+   23/06/23  AZ-8084/23     ASTON AGRO          

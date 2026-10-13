@@ -1,0 +1,36 @@
+     CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/08/13 A 31/08/13
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+19/12/12  S.2-458/12     AGRINVEST BALSAS      34200.00    34200.00
+
+16/07/13  S.1-284/13     C. VALE DIAMANTINO     4750.00     4750.00
+
+03/07/13  S.1-265/13     C. VALE SINOP          3375.00     3375.00
+
+26/06/13  S.1-255/13     CLIMA P.D.L.           8287.50     8287.50
+
+30/04/12  RK/S.7-191/12  COAGRIJAL JAGUARI      1280.00     1280.00
+
+23/01/13  S.2-032/13     COPAVANTE              6840.00     6840.00
+
+12/07/12  S.4-327/12     GILMAR A. MATTEI        641.25      641.25
+
+25/06/12  S.4-283/12     JOSE VARNIER C.N.P.     245.00      245.00
+
+08/11/12  CN.1-414/12    MOCELLIN MDM N.MUTUM   4125.00     4125.00
+
+22/05/13  CN.1-169/13    O TELHAR P.D.L.       11400.00    11400.00
+
+13/05/13  S.3-132/13     PERON FERRARI          1260.42
+16/05/13  S.3-142/13     PERON FERRARI          1289.58
+11/06/13  S.3-208/13     PERON FERRARI           858.75     3408.75
+
+18/06/13  S.2-226/13     RIBEIRAO               5700.00
+25/06/13  S.2-253/13     RIBEIRAO              11400.00    17100.00
+
+06/11/12  CN.1-409/12    SINAGRO P.D.L.        19000.00    19000.00
+
+
+
+                                        TOTAL  :          114652.50

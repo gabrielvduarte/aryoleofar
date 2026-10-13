@@ -1,0 +1,92 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/12/22 A 31/12/22
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                   PGMTO      US$            US$
+   15/08/22  A-1008/22      AGROGRAIN            NF          32978.75
+   15/08/22  AZ-1008AZ/22   AGROGRAIN            NF          32978.75
+   16/08/22  A-3178/22      AGROGRAIN            NF          32999.23
+   06/05/22  A-40135/22     AGROGRAIN            NF            250.00
+   10/05/22  A-40142/22     AGROGRAIN            NF            250.00
+   13/05/22  A-40150/22     AGROGRAIN            NF            250.00
+   18/08/22  A-40239/22     AGROGRAIN            NF           1250.00
+   12/09/22  A-40259/22     AGROGRAIN            NF           1250.00
+   12/09/22  A-40260/22     AGROGRAIN            NF            750.00
+   13/09/22  A-40261/22     AGROGRAIN            NF           2500.00
+   13/09/22  A-40267/22     AGROGRAIN            NF           1500.00   106956.73
+
+   12/09/22  NY-7054/22     AMAGGI SA            CITIBANK    17140.31    17140.31
+
+   11/07/22  A-3168/22      CARGILL              NF           5000.00
+   27/07/22  A-3171/22      CARGILL              NF           1250.00
+   06/09/22  A-3185/22      CARGILL              NF           2500.00
+   06/09/22  A-3186/22      CARGILL              NF           2500.00
+   07/07/22  A-40208/22     CARGILL              NF           1250.00
+   21/07/22  A-40218/22     CARGILL              NF           2500.00
+   23/08/22  H-5034/22      CARGILL                           1250.00    16250.00
+
+   16/03/22  H-5013/22      CEFETRA ITALY                      750.00
+   16/03/22  H-5015/22      CEFETRA ITALY                      500.00
+   29/03/22  H-5016/22      CEFETRA ITALY                     1250.00
+   29/03/22  H-5017/22      CEFETRA ITALY                      468.00     2968.00
+
+   07/06/22  A-3143/22      CJ INTL.             NF          32299.85
+   05/08/22  A-40228/22     CJ INTL.             NF            250.00
+   28/04/22  AZ-8057/22     CJ INTL.             NF           1000.00    33549.85
+
+   30/08/22  AZ-8081/22     COAMO                CITIBANK     1934.00
+   10/10/22  AZ-8088/22     COAMO                CITIBANK     2000.00     3934.00
+
+   27/04/22  AZ-8054/22     LAR COOP.            NF           1275.00     1275.00
+
+   24/03/22  A-1001/22      NOVAAGRI             NF          13500.00
+   24/03/22  AZ-1001AZ/22   NOVAAGRI             NF          13500.00
+   10/02/22  A-3038/22      NOVAAGRI             NF           2500.00
+   23/02/22  A-3055/22      NOVAAGRI             NF           1250.00
+   23/02/22  A-3056/22      NOVAAGRI             NF           1250.00
+   08/03/22  A-3066/22      NOVAAGRI             NF           1250.00
+   09/03/22  A-3067/22      NOVAAGRI             NF           2500.00
+   05/04/22  A-3095/22      NOVAAGRI             NF          29782.50
+   27/04/22  A-3109/22      NOVAAGRI             NF           2500.00
+   06/05/22  A-3119/22      NOVAAGRI             NF           1250.00
+   07/06/22  A-3142/22      NOVAAGRI             NF          30529.22
+   10/06/22  A-3150/22      NOVAAGRI             NF           1250.00
+   10/06/22  A-3151/22      NOVAAGRI             NF           1250.00
+   21/06/22  A-3162/22      NOVAAGRI             NF          34160.81
+   24/08/21  A-3267/21      NOVAAGRI             NF           1250.00
+
+
+                                                               Continua ...        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/12/22 A 31/12/22
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                   PGMTO      US$            US$
+   20/10/21  A-3301/21      NOVAAGRI             NF           1250.00
+   14/01/22  A-40021/22     NOVAAGRI             NF           1500.00
+   03/02/22  A-40028/22     NOVAAGRI             NF            750.00
+   03/03/22  A-40053/22     NOVAAGRI             NF            250.00
+   08/03/22  A-40063/22     NOVAAGRI             NF           1250.00
+   12/04/22  A-40103/22     NOVAAGRI             NF           1250.00
+   06/05/22  A-40134/22     NOVAAGRI             NF            750.00
+   09/05/22  A-40138/22     NOVAAGRI             NF            750.00
+   11/05/22  A-40146/22     NOVAAGRI             NF            750.00
+   26/05/22  A-40168/22     NOVAAGRI             NF           1000.00
+   09/06/21  A-40248/21     NOVAAGRI             NF            750.00
+   09/06/21  A-40249/21     NOVAAGRI             NF            750.00
+   10/11/21  A-40402/21     NOVAAGRI             NF            750.00
+   22/11/21  A-40414/21     NOVAAGRI             NF           1250.00
+   15/12/21  A-40461/21     NOVAAGRI             NF            500.00
+   08/03/22  H-5008/22      NOVAAGRI                           500.00
+   08/03/22  H-5009/22      NOVAAGRI                           500.00   152222.53
+
+   06/05/22  A-40133/22     OLAM GLOBAL          NF           1500.00
+   09/05/22  A-40140/22     OLAM GLOBAL          NF           1500.00     3000.00
+
+   25/03/21  A-40111/21     OLAM INTL.           NF           2500.00     2500.00
+
+   12/09/22  NY-7055/22     TGO TRADING          NF          15732.00    15732.00
+
+   10/03/22  NY-7014/22     UNITED GRAIN         CITIBANK    33840.12
+   31/05/22  NY-7037/22     UNITED GRAIN         CITIBANK    33845.06    67685.18
+
+
+
+                                           TOTAL  :            423213.60

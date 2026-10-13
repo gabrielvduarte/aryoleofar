@@ -1,0 +1,11 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/10/06 A 31/10/06
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+19/09/06  T.3-051/06     COROL                  1760.00     1760.00
+
+25/07/06  T.3-040/06     TRADICAO                534.65      534.65
+
+
+
+                                        TOTAL  :            2294.65

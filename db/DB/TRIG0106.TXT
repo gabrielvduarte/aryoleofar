@@ -1,0 +1,10 @@
+     CONTRATOS DE TRIGO M.I. RECEBIDOS DE 01/01/06 A 31/01/06
+
+DATA      CONTRATO       VENDEDOR
+
+11/11/05  T.3-101/05     VILELA              
+17/11/05  T.3-102/05     VASSOLER            
+17/11/05  T.3-103/05     VILELA              
+24/11/05  T.3-106/05     VASSOLER            
+28/11/05  T.3-107/05     VASSOLER            
+29/11/05  T.3-108/05     VILELA E VILELA     

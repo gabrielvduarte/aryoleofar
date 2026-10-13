@@ -1,0 +1,20 @@
+     CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/01/15 A 31/01/15
+
+DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                R$               R$
+03/10/14  CN.3-269/14    BELAGRICOLA C. MOTA    4287.50     4287.50
+
+25/11/14  S.1-302/14     C. VALE DIAMANTINO      583.33
+26/11/14  S.1-303/14     C. VALE DIAMANTINO      343.75
+28/11/14  S.1-304/14     C. VALE DIAMANTINO      492.42     1419.50
+
+10/11/14  S.1-298/14     C. VALE SINOP          7250.00     7250.00
+
+02/10/14  CN.1-265/14    FABIANO RODRIGO FIUT   3449.60
+02/10/14  CN.1-266/14    FABIANO RODRIGO FIUT   3735.32     7184.92
+
+09/12/14  CN.1-317/14    FERTIMIG ITANHANGA     2666.67     2666.67
+
+
+
+                                        TOTAL  :           22808.59

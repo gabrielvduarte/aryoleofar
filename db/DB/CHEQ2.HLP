@@ -1,0 +1,48 @@
+
+                  TELA DE AJUDA PARA EMISSAO DE CHEQUES
+                  -------------------------------------
+
+
+     No campo BANCO, digite o N£mero do Banco na Cƒmara de Compen-
+     sa‡„o. Ex.: Bradesco; digite 237
+     Para sair da Rotina, tecle <Enter> com o Campo em Branco ou a
+     tecla <Esc>.
+
+     Caso n„o exista Layout para o Banco solicitado, o sistema in-
+     forma a ocorrˆncia, sendo necess rio o cadastramento do mesmo
+     pela op‡„o LAYOUT DE BANCOS.
+
+     Existindo Layout para o Banco, ser  apresentada uma Janela com
+     as contas cadastradas no Banco solicitado
+
+     Posicione o Cursor sobre a conta desejada ou,  se n„o existir,
+     tecle <Esc> para Criar nova conta para o Banco selecionado.
+
+     Se for Conta Nova, use o Campo CONTA NUM para digitar o N£mero
+     da Conta, Criando assim mais uma conta para o Banco.
+
+     O Campo CHEQUE NUM apresentar  o n£mero do cheque imediatamen-
+     te posterior ao £ltimo cheque emitido na Conta, ou o n£mero  1
+     caso seja conta nova.
+     Tecle <Enter> para aceitar o n£mero apresentado ou digite novo
+     n£mero.
+
+     Preencha os Campos VALOR e FAVORECIDO para o preenchimento  do
+     cheque e os Campos HISTORICO, DEBITO e CREDITO para aparecerem
+     na C¢pia do Cheque.
+     Os Campos CIDADE e DATA tamb‚m ser„o impressos no cheque e  na
+     c¢pia de Cheque.
+
+     Ap¢s a passagem pelos Campos descritos acima, o sistema pede a
+     informa‡„o ao operador se este deseja ou n„o que seja criada a
+     C¢pia do Cheque.
+
+     Ainda neste ponto pode-se teclar <Esc> para abandonar a Emiss„o
+     do Cheque.
+
+     Passando-se desse Campo, ser  impresso o cheque e ser  aberto o
+     Campo para preenchimento do Endosso do Cheque, com 6 linhas.
+     Tecle <Esc> ou <PageDown> com os campos em  Branco para n„o Im-
+     primir o Endosso.
+
+                                 <Fim>

@@ -1,0 +1,109 @@
+
+                TELA DE AJUDA PARA EMISSAO DE RECIBOS
+                -------------------------------------
+
+
+          Se desejar retornar ao Men£ de Op‡”es de Recibos
+          tecle <ENTER> com o Campo C.G.C. em branco.
+
+          Escreva  no Campo C.G.C. ,  o N£mero do C.G.C. do
+          cliente,  conforme consta no Cadastro de Clientes.
+
+          HotKey : V  ao Cadastro de Clientes em Alterar/Ler.
+                   Chame o Cliente desejado, posicione em CGC
+                   e Tecle <Ctrl-F10>.
+                   Volte p/ Emiss„o de Recibos e, no campo CGC
+                   tecle <Alt-F10>.
+
+          No caso de Pessoa Jur¡dica (Firma) o C.G.C. inicia-
+          se com o numero "0" (zero);
+
+          No caso de Pessoa F¡sica, deve-se escrever o numero
+          do C.P.F. da pessoa, colocando-se quatro zeros (0000)
+          logo ap¢s a barra ("/").
+
+          Se o C.G.C.  solicitado  n„o for encontrado, essa
+          ocorrˆncia ser  informada  no  rodap‚, exigindo do
+          operador que atualize o Cadastro de Clientes, quer
+          seja com a inclus„o do Cliente em quest„o, quer se-
+          ja com o Lan‡amento ou Corre‡„o do CGC/CPF do mesmo.
+
+          Antes de concluir que o Cadastro n„o est  atualizado,
+          deve-se verificar se o N£mero do CGC/CPF foi digitado
+          corretamente.
+
+          =========
+
+          O n£mero do Recibo apresentado, representa o n£mero
+          de Recibo que ser  impresso, e poder  ser alterado
+          se necess rio.
+
+          =========
+
+          A Data apresentada inicialmente, ser  a data do dia
+          presente, isto ‚, o dia em que se est  emitindo o(s)
+          Recibo(s).
+
+          Essa data poder  ser alterada, fazendo com que, nos
+          pr¢ximos  Recibos  da  mesma se‡„o de emiss„o, seja
+          apresentada a nova data.
+
+          =========
+
+          Os dados do Cliente solicitado ser„o apresentados, sem
+          possibilidade de altera‡„o, servindo para que o opera-
+          dor verifique a corre‡„o dos mesmos.
+          Caso algum dos dados n„o sejam os dados precisos do Cli-
+          ente desejado, deve-se corrigi-los no Cadastro de Clien-
+          tes, ou entrar o CGC correto.
+          Para solicitar outro CGC, tecla-se <PgDn> para passar os
+          campos ainda n„o editados e, em seguida a letra <C> para
+          cancelar a impress„o.
+
+          =========
+
+          As quatro linhas apresentadas s„o usadas para a digita‡„o
+          de Hist¢rico ou Observa‡”es que constar„o no Recibo, ap¢s
+          a quantia por extenso.
+
+          =========
+
+          Valor Bruto  :
+          Campo Num‚rico para a digita‡„o do Valor Bruto do Recibo
+
+          Imp.de Renda :
+          Campo Num‚rico para a digita‡„o do Valor do IRRF.
+          Deve-se digitar o valor puro do IRRF, sem sinal de (-),
+          pois o programa far  o c lculo correto, subtraindo esse
+          valor do Valor Bruto.
+          O programa NAO calcula automaticamente o IRRF, pois h 
+          casos de arredondamento que poderiam resultar em dife-
+          ren‡a.
+
+          =========
+
+          Dois outros  campos s„o dispon¡veis para lan‡amento de
+          valores, nos quais deve-se escrever seus T¡tulos e, no
+          caso de se tratarem de descontos, deve-se colocar o si-
+          nal de menos (-).
+          Valores positivos n„o necessitam de sinal.
+
+          =========
+
+          O Valor L¡quido ser  calculado e apresentado pelo programa
+          para verifica‡„o.
+          Neste ponto o programa aguarda que  se  Tecle  <I> ou  <C>,
+          para a Impress„o ou Cancelamento de Impress„o do Recibo.
+
+          Caso seja constatado qualquer erro no preenchimento do
+          Recibo, deve-se  Cancelar a Impress„o, teclando-se <C>
+          e reentrar todos os dados.
+
+          =========
+
+          Teclando-se <I> para Imprimir, o sistema solicitar  a
+          quantidade de Vias desejada, apresentado a quantidade
+          padr„o de 03 (tres) vias, a qual poder  ser alterada.
+
+
+                                 <Fim>

@@ -1,0 +1,144 @@
+        CONTRATOS DE EXPORTACAO RECEBIDOS DE 01/09/25 A 30/09/25
+
+   DATA      CONTRATO       VENDEDOR             FORMA      VALOR         SUB-TOTAL
+                                                 PGMTO        US$            US$
+   17/04/25  A-3165/25      3T INTL.             NF           1250.00     1250.00
+
+   25/02/25  A-3076/25      AGB INTL.            NF           2500.00
+   08/04/25  A-3139/25      AGB INTL.            NF           1250.00
+   14/04/25  A-3153/25      AGB INTL.            NF           1250.00     5000.00
+
+   25/03/25  A-3119/25      AGRIBRASIL GLOBAL    NF           1250.00     1250.00
+
+   07/02/25  A-3054/25      AGROGRAIN            NF           2500.00
+   20/02/25  A-3069/25      AGROGRAIN            NF           1250.00
+   10/03/25  A-3090/25      AGROGRAIN            NF           2500.00
+   11/03/25  A-3095/25      AGROGRAIN            NF           2500.00
+   10/04/25  A-3144/25      AGROGRAIN            NF          33270.85
+   11/04/25  A-3146/25      AGROGRAIN            NF           1250.00
+   11/04/25  A-3151/25      AGROGRAIN            NF           1250.00
+   17/04/25  A-3164/25      AGROGRAIN            NF           2500.00
+   04/10/24  A-3256/24      AGROGRAIN            NF           1250.00    48270.85
+
+   02/04/25  NY-7032/25     AMAGGI SA            CALSTON      7969.50
+   04/06/25  NY-7064/25     AMAGGI SA            CALSTON      6550.23
+   20/08/24  NY-7125/24     AMAGGI SA            CALSTON     16195.15    30714.88
+
+   22/04/25  A-3169/25      AMS AMEROPA          NF           1250.00
+   23/05/25  A-3199/25      AMS AMEROPA          NF           1250.00
+   04/10/24  A-3257/24      AMS AMEROPA          NF           1250.00     3750.00
+
+   05/05/25  A-40243/25     BE8 S.A.             NF            250.00
+   11/04/25  H-5007/25      BE8 S.A.             NF            300.00      550.00
+
+   05/05/25  A-40247/25     C. VALE AGROINDL.    NF           1500.00
+   06/05/25  A-40249/25     C. VALE AGROINDL.    NF           5000.00
+   06/05/25  A-40260/25     C. VALE AGROINDL.    NF           3000.00
+   06/06/25  A-40373/25     C. VALE AGROINDL.    NF           7500.00
+   10/06/25  A-40382/25     C. VALE AGROINDL.    NF           2500.00
+   03/07/25  A-40405/25     C. VALE AGROINDL.    NF           3850.00
+   01/04/25  H-5004/25      C. VALE AGROINDL.    NF           2205.00    25555.00
+
+   11/12/24  S-3323/24      C. VALE LUXEMBOURG   NF           5000.00     5000.00
+
+   06/05/25  A-3183/25      CAVALCA INTL.        NF           1250.00     1250.00
+
+   01/11/24  A-3280/24      CHS INC.             NF           1250.00
+   27/12/24  A-3337/24      CHS INC.             NF           1250.00     2500.00
+
+   11/04/25  H-5006/25      COAMO                CALSTON      2246.40     2246.40
+
+   13/05/25  A-3186/25      COAMO AGROINDL.      NF           1250.00
+   14/05/25  A-3189/25      COAMO AGROINDL.      NF           1250.00
+   20/05/25  A-3194/25      COAMO AGROINDL.      NF           1250.00
+   23/05/25  A-3200/25      COAMO AGROINDL.      NF           1750.00     5500.00
+
+   21/02/25  A-40142/25     COCAMAR TRADING      NF           4000.00
+   01/10/24  A-40338/24     COCAMAR TRADING      NF           2500.00
+   04/12/24  AZ-8125/24     COCAMAR TRADING      NF            500.00
+   04/12/24  A-8125A/24     COCAMAR TRADING      NF            500.00     7500.00
+
+   02/01/25  A-40000/25     DREYFUS              NF           1750.00
+   08/01/25  A-40010/25     DREYFUS              NF            500.00
+   08/01/25  A-40012/25     DREYFUS              NF            500.00
+   08/01/25  A-40015/25     DREYFUS              NF           1250.00
+   08/01/25  A-40016/25     DREYFUS              NF           1250.00
+   09/01/25  A-40031/25     DREYFUS              NF           1000.00
+   14/01/25  A-40051/25     DREYFUS              NF           1000.00
+   10/02/25  A-40108/25     DREYFUS              NF            750.00
+   05/02/25  AZ-8019/25     DREYFUS              NF           1000.00     9000.00
+
+   17/03/25  A-3105/25      GEES S/A             NF           2500.00     2500.00
+
+   03/04/25  A-3136/25      GEES S/A. BALSAS     NF           3750.00     3750.00
+
+   11/04/25  A-3145/25      INTERGRAIN (SODRU)   NF           1250.00
+   23/04/25  A-3175/25      INTERGRAIN (SODRU)   NF           2500.00
+   16/05/25  A-3191/25      INTERGRAIN (SODRU)   NF           1250.00
+   20/05/25  A-3193/25      INTERGRAIN (SODRU)   NF          23332.78
+   10/06/25  A-3202/25      INTERGRAIN (SODRU)   NF           1250.00
+   01/11/24  A-3281/24      INTERGRAIN (SODRU)   NF           2500.00
+   19/11/24  A-3299/24      INTERGRAIN (SODRU)   NF           1250.00
+   16/01/25  AZ-8008/25     INTERGRAIN (SODRU)   NF           2000.00
+   12/02/25  AZ-8026/25     INTERGRAIN (SODRU)   NF           1000.00
+   12/02/25  AZ-8027/25     INTERGRAIN (SODRU)   NF           1000.00    37332.78
+
+   25/04/25  A-40228/25     INTERGRAIN CO.       NF            750.00
+   06/05/25  A-40258/25     INTERGRAIN CO.       NF           1250.00
+   06/05/25  A-40261/25     INTERGRAIN CO.       NF            750.00
+   06/05/25  A-40263/25     INTERGRAIN CO.       NF            750.00
+   01/04/25  AZ-8056/25     INTERGRAIN CO.       NF           2000.00
+   03/04/25  AZ-8062/25     INTERGRAIN CO.       NF           2000.00
+   09/04/25  AZ-8065/25     INTERGRAIN CO.       NF           3000.00    10500.00
+
+   19/03/25  A-40180/25     LAR COOP.            NF           3500.00
+   15/01/25  AZ-8006/25     LAR COOP.            NF            500.00     4000.00
+
+   11/04/25  A-40206/25     LAR COOP. CAARAPO    NF           2000.00
+   15/05/25  A-40333/25     LAR COOP. CAARAPO    NF           2000.00
+   13/06/25  A-40389/25     LAR COOP. CAARAPO    NF           2500.00     6500.00
+
+   29/01/25  A-3040/25      MARUBENI             NF           1280.00     1280.00
+
+   06/12/24  A-3314/24      MARUBENI GRAIN       NF           1250.00     1250.00
+
+   12/02/25  A-3063/25      OLAM GLOBAL          NF           1250.00
+   17/04/25  A-3166/25      OLAM GLOBAL          NF           1250.00     2500.00
+
+   13/03/25  A-3102/25      OURO SAFRA           NF           2500.00     2500.00
+
+   18/03/25  A-3108/25      OURO SAFRA TRADING   NF           1250.00     1250.00
+
+   28/01/25  A-3032/25      REWIR                CALSTON      1250.00
+   09/01/25  A-40023/25     REWIR                CALSTON       250.00
+   17/01/25  A-40062/25     REWIR                CALSTON       250.00
+   17/01/25  A-40063/25     REWIR                CALSTON       250.00
+   23/01/25  A-40086/25     REWIR                CALSTON       250.00     2250.00
+
+   15/04/25  A-3160/25      REWIR S.A.           CALSTON       250.00
+   21/03/25  A-40182/25     REWIR S.A.           CALSTON       250.00
+   30/10/24  A-40384/24     REWIR S.A.           CALSTON       250.00
+   30/10/24  A-40386/24     REWIR S.A.           CALSTON       500.00
+   05/06/25  AZ-8101/25     REWIR S.A.           CALSTON      1000.00     2250.00
+
+   08/07/25  NY-7073/25     TGL TRADING          NF           8183.61     8183.61
+
+   14/02/25  NY-7012/25     TGO TRADING          NF           4852.80
+   18/02/25  NY-7014/25     TGO TRADING          NF           7847.16
+   19/08/24  NY-7124/24     TGO TRADING          NF           9680.07    22380.03
+
+   06/05/25  NY-7049/25     TOPWAY TRADING       NF          11226.51    11226.51
+
+   13/05/25  A-3187/25      ZEN-NOH GRAIN        NF           1250.00
+   13/05/25  A-3188/25      ZEN-NOH GRAIN        NF           1250.00
+   01/11/24  A-3279/24      ZEN-NOH GRAIN        NF           1250.00
+   27/12/24  A-3336/24      ZEN-NOH GRAIN        NF           1250.00
+   18/02/25  A-40130/25     ZEN-NOH GRAIN        NF           1250.00
+   24/04/25  A-40226/25     ZEN-NOH GRAIN        NF            250.00
+   29/05/25  A-40357/25     ZEN-NOH GRAIN        NF           1250.00
+   03/06/25  A-40359/25     ZEN-NOH GRAIN        NF           1250.00
+   11/06/25  A-40383/25     ZEN-NOH GRAIN        NF           1250.00    10250.00
+
+
+
+                                           TOTAL  :            279240.06

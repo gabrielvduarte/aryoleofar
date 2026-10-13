@@ -1,0 +1,76 @@
+        CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/05/19 A 31/05/19
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   22/02/19  S.2-066/19     AGRINVEST BALSAS       1309.00
+   19/03/19  S.2-108/19     AGRINVEST BALSAS      19500.00    20809.00
+
+   11/04/18  S.1-202/18     AGROP. CHAPADA         5541.67
+   24/05/18  S.1-258/18     AGROP. CHAPADA         6041.67    11583.34
+
+   09/04/19  S.1-136/19     AGROP. SANTA ADRIANA   4855.50     4855.50
+
+   15/03/19  S.1-104/19     C. VALE CLAUDIA        1546.67     1546.67
+
+   28/03/19  S.1-129/19     C. VALE DIAMANTINO     1478.25     1478.25
+
+   16/08/18  S.1-297/18     C. VALE FELIZ NATAL     807.50      807.50
+
+   13/03/19  S.1-092/19     C. VALE NOVA MUTUM     1590.00
+   06/12/18  S.1-364/18     C. VALE NOVA MUTUM    16350.00    17940.00
+
+   23/05/18  S.8-253/18     C. VALE PALOTINA      36458.33    36458.33
+
+   20/03/19  S.1-110/19     C. VALE SANTA CARMEM   8000.00
+   27/03/19  S.1-125/19     C. VALE SANTA CARMEM   1500.00     9500.00
+
+   22/02/19  S.1-072/19     C. VALE SINOP          6846.00     6846.00
+
+   20/03/19  S.1-109/19     C. VALE SORRISO        2666.67
+   21/03/19  S.1-112/19     C. VALE SORRISO        2675.00     5341.67
+
+   25/02/19  S.1-069/19     CREMACQ BAIXA GRANDE  15296.53    15296.53
+
+   23/01/19  S.1-026/19     CRUZEIRO DO SUL       14154.10
+   23/01/19  S.1-027/19     CRUZEIRO DO SUL        2821.42
+   25/01/19  S.1-029/19     CRUZEIRO DO SUL        8513.03
+   12/02/19  S.1-053/19     CRUZEIRO DO SUL        9754.08
+   21/02/19  S.1-060/19     CRUZEIRO DO SUL       10650.31
+   12/03/19  S.1-089/19     CRUZEIRO DO SUL        7603.24
+   14/03/19  S.1-101/19     CRUZEIRO DO SUL        2566.01
+   11/04/18  S.1-203/18     CRUZEIRO DO SUL       14630.29    70692.48
+
+   10/04/18  S.8-199/18     DP PARTICIP. SORRISO   5161.21
+   10/04/18  S.8-200/18     DP PARTICIP. SORRISO   5350.00    10511.21
+
+   15/04/19  S.1-138/19     E.B.P.A. CURRAIS      10187.30    10187.30
+
+   25/02/19  S.1-070/19     EBPA BOM JESUS        15054.00    15054.00
+
+   04/04/19  S.1-134/19     I.B.F. P.D.L.         25094.08
+   04/04/19  S.1-135/19     I.B.F. P.D.L.          3425.00    28519.08
+
+   09/04/18  S.1-198/18     MOCELLIN E HOLZ VERA   4519.48     4519.48
+
+   19/03/18  S.2-135/18     ROYAL AGRO ANTONIO     7359.56     7359.56
+
+
+
+                                                               Continua ...        CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/05/19 A 31/05/19
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   14/01/19  S.8-014/19     ROYAL AGRO. PTA.PORA   1235.17     1235.17
+
+   29/05/18  S.1-262/18     SIPAL DIAMANTINO      48125.00    48125.00
+
+   25/09/18  S.1-330/18     SIPAL FELIZ NATAL     28333.33    28333.33
+
+   25/02/19  S.1-071/19     SIPAL SANTA CARMEM    13354.17    13354.17
+
+   28/01/19  S.1-032/19     ZMACQ NAVIRAI          5667.55
+   12/03/19  S.1-091/19     ZMACQ NAVIRAI          2974.77     8642.32
+
+
+
+                                           TOTAL  :          378995.89

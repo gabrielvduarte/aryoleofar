@@ -1,0 +1,15 @@
+        CONTRATOS DE FARELO M.I. RECEBIDOS DE 01/03/24 A 31/03/24
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   13/10/23  F.3-028/23     C. VALE NOVA MUTUM    11400.00    11400.00
+
+   30/01/24  F.4-008/24     COOPERMOTA RANCHARIA    328.44      328.44
+
+   31/01/24  F.6-009/24     OLFAR ERECHIM          5296.62     5296.62
+
+   26/01/24  RK/F.7-007/24  TRES TENTOS IJUI        368.51      368.51
+
+
+
+                                           TOTAL  :           17393.57

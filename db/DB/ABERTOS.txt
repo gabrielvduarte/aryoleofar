@@ -1,0 +1,141 @@
+   02/10/26                                                                                            Pag.  1
+   CONTRATOS  EM  ABERTO  - GRAOS  M.I.
+   --------------------------------------------------------------------------------------------------------------
+   DATA DO   NUMERO DO         VENDEDOR              COMPRADOR             QUANTIDADE         PRECO    COMISSAO
+   CONTRATO  CONTRATO
+   --------------------------------------------------------------------------------------------------------------
+   19/07/23  S.4-263/23        RURAL BRASIL ACAILAN  AMAGGI L.E.M.             997.30        137.00        0.200
+   22/01/24  CN.4-010/24       RURAL BRASIL CONFRES  VITERRA REDENCAO         2976.45         60.00        0.400
+   05/12/24  CN.8-412/24       BELAGRICOLA CRUZALIA  CHS AGRON. RIO VERDE    10000.00         71.30        0.350
+   09/05/25  CN-171/25         FRENT AGRO RONDONOPO  MOINHO REGIO CUIABA       600.00         73.00        0.500
+   16/10/25  CN-346/25         SAGEL SINOP           ENERFO SAO PAULO         1000.00         60.40        0.500
+   23/10/25  S-354/25          SAGEL SINOP           CHS AGRON. SORRISO       4000.00        129.15        0.250
+   28/10/25  CN-363/25         SAGEL SORRISO         DREYFUS SORRISO          3000.00         64.00        0.500
+   30/10/25  CN-367/25         SAGEL SINOP           CHS AGRON. SORRISO       3000.00         63.00        0.500
+   31/10/25  CN-370/25         SAGEL SINOP           CHS AGRON. SORRISO      10000.00         63.50        0.500
+   28/11/25  S-400/25          BIOND S.F.ARAGUAIA    NOVAAGRI SINOP            900.00        112.00        0.250
+   02/12/25  CN-406/25         SAGEL SINOP           CUTRALE RONDONOPOLIS    15000.00         56.37        0.500
+   12/12/25  CN-425/25         SAGEL SINOP           CHS AGRON. SORRISO       5040.00         62.00        0.500
+   17/12/25  S-428/25          BIOND S.F.A.          NOVAAGRI SINOP            600.00        119.00        0.250
+   17/12/25  CN-429/25         ALVORADA QUERENCIA    NOVAAGRI SAO PAULO      30000.00         73.50        0.500
+   17/12/25  S-430/25          VERDE AGRICOLA N.M.   NOVAAGRI SINOP           1000.00        127.00        0.250
+   17/12/25  S-431/25          VERDE AGRICOLA N.M.   NOVAAGRI SINOP           2000.00        127.00        0.250
+   17/12/25  S-432/25          DIPAGRO ALTA FLOREST  VERDE AGRICOLA N.M.       224.04        104.35        0.250
+   17/12/25  S-433/25          DIPAGRO ALTA FLOREST  VERDE AGRICOLA N.M.       224.04        104.35        0.250
+   17/12/25  S-434/25          DIPAGRO ALTA FLOREST  VERDE AGRICOLA N.M.       675.96        113.50        0.250
+   17/12/25  S-435/25          DIPAGRO ALTA FLOREST  VERDE AGRICOLA N.M.       675.96        113.50        0.250
+   18/12/25  S-437/25          VERDE AGRICOLA N.M.   NOVAAGRI SINOP           5200.00        126.50        0.250
+   22/12/25  CN-441/25         ALVORADA SINOP        DREYFUS SANTAREM          600.00         66.50        0.500
+   04/02/26  S-027/26          GIRASSOL AGRICOLA     TRES TENTOS CONFRESA     2000.00        110.00        0.250
+   12/02/26  S-043/26          SAGEL SINOP           CUTRALE RONDONOPOLIS    10000.00        128.51        0.250
+   12/02/26  S-044/26          SAGEL SINOP           CUTRALE RONDONOPOLIS    15000.00        128.50        0.250
+   12/02/26  S-045/26          BIOND S.FELIX ARAGUA  ROYAL AGRO PARANAGUA      286.16        132.20        0.250
+   19/02/26  CN-051/26         SIPAL BOA ESP.NORTE   BRF S.A. UBERLANDIA      5000.00         64.50        0.500
+   19/02/26  CN-052/26         SIPAL BOA ESP. NORTE  BRF S.A. UBERLANDIA      5000.00         64.50        0.500
+   19/02/26  CN-053/26         USIMAT SORRISO        MOINHO REGIO CUIABA      1000.00         55.00        0.500
+   23/02/26  S-054/26          C. VALE SORRISO       TRES TENTOS SORRISO      3000.00        109.00        0.200
+   03/03/26  S-070/26          VERDE AGRIC. N.MUNDO  NOVAAGRI SINOP           2000.00        125.00        0.250
+   03/03/26  S-071/26          USIMAT SANTA CARMEM   NOVAAGRI SINOP           5000.00        125.10        0.250
+   06/03/26  S-080/26          COAPA PEDRO AFONSO    CZARNIKOW MARIANOPOL     3000.00        122.00        0.250
+   12/03/26  CN-092/26         CRUZEIRO DO SUL       BRF S.A. DOIS VIZINH     1000.00         57.00        0.500
+   13/03/26  CN-094/26         CRUZEIRO DO SUL       BRF S.A. TOLEDO          1500.00         56.50        0.500
+   13/03/26  CN-095/26         CRUZEIRO DO SUL       BRF S.A. TOLEDO          1500.00         57.50        0.500
+   18/03/26  CN-097/26         ALVORADA CONFRESA     OLAM SORRISO            40000.00         73.00        0.500
+   18/03/26  CN-098/26         ALVORADA CONFRESA     OLAM SORRISO             8000.00         73.00        0.200
+   19/03/26  S-100/26          SIPAL CONFRESA        CHS AGRON. CANARANA      5000.00        129.50        0.250
+   19/03/26  S-101/26          C. VALE SORRISO       BTG PACTUAL SORRISO      1800.00        109.50        0.200
+   20/03/26  S-105/26          C. VALE SORRISO       BTG PACTUAL SORRISO       600.00        110.50        0.200
+   27/03/26  CN-108/26         CRUZEIRO DO SUL       BRF S.A. CHAPECO         5000.00         58.00        0.500
+   27/03/26  CN-109/26         CRUZEIRO DO SUL       BRF S.A. CHAPECO         2000.00         58.00        0.500
+   27/03/26  CN-111/26         USIMAT BOA ESP.NORTE  MOINHO REGIO CUIABA      2023.42         55.50        0.500
+   06/04/26  S-119/26          C. VALE DIAMANTINO    BTG PACTUAL SORRISO       330.00        105.00        0.200
+   07/04/26  CN-121/26         CRUZEIRO DO SUL       SEARA S.MIGUEL OESTE     4000.00         56.00        0.500
+   29/04/26  S-131/26          BIOND S.FELIX ARAGUA  BTG PACTUAL SORRISO      1500.00        113.53        0.250
+   30/04/26  CN-133/26         FS IND. RONDONOPOLIS  DREYFUS SANTAREM         2400.00         62.00        0.500
+   30/04/26  CN-139/26         FS IND. RONDONOPOLIS  DREYFUS SANTAREM          600.00         62.00        0.500
+   11/05/26  SG-143/26         NNC NORTE E NORDESTE  OURO SAFRA L.E.M.        3000.00         64.30        0.350
+   13/05/26  S-145/26          BIOND S.F.ARAGUAIA    BTG PACTUAL SORRISO      1200.00        114.15        0.250
+   13/05/26  SG-146/26         CRUZEIRO DO SUL       CARGILL                  5000.00         41.84        0.500
+   15/05/26  SG-147/26         CRUZEIRO DO SUL       CARGILL BARREIRAS        5000.00         42.07        0.500
+   18/05/26  S-148/26          C. VALE FELIZ NATAL   BTG PACTUAL SORRISO      1800.00        110.00        0.200
+   29/05/26  S-154/26          C. VALE CLAUDIA       DREYFUS SINOP             360.00        110.50        0.200
+   29/05/26  SG-160/26         CRUZEIRO DO SUL       BUNGE L.E.M.             2000.00         42.50        0.500
+   08/06/26  CN-162/26         ALVORADA VILA RICA    NOVAAGRI P.D.L.          3000.00         67.50        0.500
+   10/06/26  S-164/26          CRUZEIRO DO SUL       CARGILL URUCUI          10000.00        124.28        0.250
+   10/06/26  S-165/26          CRUZEIRO DO SUL       CARGILL URUCUI          10000.00        124.28        0.250
+   10/06/26  S-166/26          C. VALE N. UBIRATA    BUNGE SORRISO            2000.00        111.40        0.200
+   15/06/26  CN-167/26         CRUZEIRO DO SUL       BRF CATANDUVAS           5000.00         52.00        0.500
+   16/06/26  S-168/26          CRUZEIRO DO SUL       CARGILL URUCUI           7500.00        123.47        0.250
+   17/06/26  S-170/26          USIMAT SORRISO        CARGILL SORRISO          5000.00        120.00        0.250
+   25/06/26  S-174/26          C. VALE FELIZ NATAL   TRES TENTOS SORRISO      1800.00        110.00        0.200
+   25/06/26  CN-175/26         OURO SAFRA CUIABA     AMAGGI CAMPO VERDE       3000.00         43.50        0.350
+   01/07/26  S-182/26          AGROCHAPADA PARANATI  ALVORADA PARANATINGA     1000.00        111.00        0.250
+   07/07/26  S-184/26          MODO AGROLOGISTICA    BTG PACTUAL SORRISO      1800.00        127.00        0.250
+   07/07/26  CN-185/26         ALVORADA CONFRESA     NOVAAGRI PALMEIRANTE     1800.00         59.00        0.500
+   08/07/26  S-186/26          MODO AGROLOGISTICA    BTG PACTUAL SORRISO       600.00        127.30        0.250
+   13/07/26  S-188/26          AGROCHAPADA PARANATI  ALVORADA PARANATINGA     1000.00        112.00        0.250
+   14/07/26  SG-189/26         CRUZEIRO DO SUL       BUNGE L.E.M.             6000.00         46.29        0.500
+   15/07/26  CN-191/26         C. VALE CLAUDIA       CARGILL CLAUDIA          7000.00         47.00        0.300
+   17/07/26  S-195/26          VERDE AGRIC. N.MUNDO  BTG PACTUAL SORRISO      3000.00        134.00        0.250
+   17/07/26  S-196/26          I.B.F. P.D.L.         CARGILL P.D.L.           6000.00        111.91        0.250
+   20/07/26  S-197/26          AGROCHAPADA PARANATI  ALVORADA PARANATINGA     1000.00        114.00        0.250
+   21/07/26  CN-198/26         CRUZEIRO DO SUL       BRF MARAU                5000.00         53.00        0.500
+   22/07/26  CN-199/26         C. VALE NOVA MUTUM    BTG PACTUAL SORRISO      5000.00         47.50        0.300
+   22/07/26  CN-200/26         COOAVIL TERRA NOVA    ENERFO SAO PAULO         5000.00         64.50        0.500
+   22/07/26  S-201/26          C. VALE CLAUDIA       TRES TENTOS SORRISO      2100.00        116.00        0.200
+   22/07/26  S-202/26          I.B.F. P.D.L.         AMAGGI P.D.L.            1500.00        114.35        0.500
+   23/07/26  S-204/26          SANTA ADRIANA DIAMAN  AMAGGI DIAMANTINO        1500.00        109.14        0.250
+   24/07/26  CN-206/26         ALVORADA P.D.L.       CUTRALE RONDONOPOLIS     5000.00         54.20        0.370
+   28/07/26  CN-207/26         ALVORADA P.D.L.       OLAM SINOP               5000.00         54.50        0.500
+   05/08/26  S-213/26          CRUZEIRO DO SUL       CARGILL URUCUI           4000.00        133.75        0.250
+   05/08/26  S-214/26          MLF AGRO B.G.RIBEIRO  CARGILL URUCUI           2255.36        133.75        0.250
+   05/08/26  S-215/26          MLF AGRO B.G.RIBEIRO  CARGILL URUCUI              8.46        133.86        0.250
+   06/08/26  CN-216/26         CRUZEIRO DO SUL       BRF ARROIO DO MEIO       5000.00         55.00        0.500
+   11/08/26  CN-217/26         C. VALE SORRISO       CARGILL SINOP             990.00         46.30        0.300
+   11/08/26  SG-218/26         NNC NORTE E NORDESTE  CARGILL BARREIRAS        3000.00         66.50        0.350
+   12/08/26  CN-219/26         ALVORADA SORRISO      BTG PACTUAL SORRISO       600.00         57.80        0.500
+   12/08/26  CN-220/26         ALVORADA SORRISO      OLAM BRASIL SINOP        3000.00         52.00        0.500
+   12/08/26  CN-221/26         ALVORADA P.D.L.       CUTRALE RONDONOPOLIS    15000.00         54.50        0.500
+   13/08/26  S-222/26          ALPHAGRAIN N. MUTUM   COFCO RONDONOPOLIS        600.00        140.50        0.180
+   13/08/26  CN-223/26         CRUZEIRO DO SUL       CARGILL                  5000.00         55.00        0.500
+   13/08/26  CN-224/26         CRUZEIRO DO SUL       CARGILL                  5000.00         55.00        0.500
+   17/08/26  CN-225/26         FT TRANSP. SORRISO    TRES TENTOS SORRISO      2000.00         61.00        0.500
+   18/08/26  S-226/26          AGROCHAPADA PARANATI  TRES TENTOS N.UBIRAT     2000.00        118.50        0.250
+   18/08/26  S-227/26          COOP. HOLAMBRA PARAN  BTG PACTUAL PARANAGU      312.00        155.50        0.250
+   19/08/26  CN-228/26         SIPAL FELIZ NATAL     OLAM BRASIL SINOP        3000.00         60.00        0.500
+   20/08/26  CN-229/26         GNOVA VILA RICA       CARGILL CONFRESA         5000.00         63.00        0.400
+   20/08/26  CN-230/26         ALVORADA S.J.XINGU    CARGILL CONFRESA         3500.00         62.50        0.500
+   20/08/26  S-231/26          MODO AGROLOGISTICA    BTG PACTUAL SORRISO      1800.00        129.50        0.250
+   21/08/26  CN-232/26         ALVORADA VILA RICA    NOVAAGRI P.D.L.          1800.00         73.00        0.500
+   21/08/26  CN-233/26         SAGEL SORRISO         CUTRALE RONDONOPOLIS     5200.00         52.37        0.500
+   24/08/26  CN-234/26         SANTA ADRIANA DIAMAN  AMAGGI C.N.P.              90.00         47.00        0.500
+   25/08/26  CN-236/26         MODO AGROLOGISTICA    COFCO CARLINDA           1800.00         65.00        0.500
+   26/08/26  CN-237/26         SAGEL SORRISO         OURO SAFRA SAO PAULO     1000.00         58.90        0.500
+   28/08/26  CN-238/26         I.B.F. P.D.L.         DREYFUS P.D.L.           1200.00         51.30        0.500
+   31/08/26  S-240/26          JAF AGRONEGOCIOS      ARY OLEOFAR              1650.00        120.00        0.250
+   31/08/26  S-241/26          UFF AGRONEGOCIOS      ARY OLEOFAR               480.00        120.00        0.250
+   31/08/26  S-242/26          ACP BIOENERGIA        ARY OLEOFAR              1500.00        128.00        0.250
+   31/08/26  S-244/26          AGROCHAPADA PARANATI  ALVORADA PARANATINGA     1000.00        123.00        0.250
+   31/08/26  CN-245/26         CRUZEIRO DO SUL       D.P.B. AVICULTURA        6000.00         64.00        0.500
+   31/08/26  CN-246/26         CRUZEIRO DO SUL       TAMAGO PRODUC. OVOS      4000.00         64.00        0.500
+   31/08/26  S-247/26          AGROCHAPADA PARANATI  ALVORADA PARANATINGA     1000.00        123.00        0.250
+   03/09/26  S-248/26          AGROCHAPADA PARANATI  AMAGGI PARANATINGA       2000.00        123.00        0.250
+   04/09/26  S-249/26          MODO AGROLOGISTICA    BTG PACTUAL SORRISO       900.00        137.00        0.250
+   10/09/26  CN-250/26         ALVORADA P.D.L.       AMAGGI                   2500.00         52.50        0.500
+   10/09/26  CN-251/26         ALVORADA P.D.L.       AMAGGI P.D.L.            3000.00         53.00        0.500
+   10/09/26  S-252/26          USIMAT CAMPO VERDE    NOVAAGRI P.D.L.          3000.00        131.50        0.250
+   11/09/26  CN-253/26         ALVORADA P.D.L.       AMAGGI P.D.L.           11300.00         53.75        0.500
+   11/09/26  CN-254/26         ALVORADA P.D.L.       AMAGGI .D.L.            10000.00         54.30        0.500
+   14/09/26  CN-255/26         SAGEL BOA ESPERANCA   AMAGGI BOA ESPERANCA    10000.00         51.30        0.500
+   15/09/26  CN-256/26         CRUZEIRO DO SUL       SEARA SEBERI             4000.00         58.50        0.500
+   15/09/26  CN-257/26         CRUZEIRO DO SUL       JBS TRINDADE DO SUL      3000.00         58.50        0.500
+   15/09/26  S-258/26          MODO AGROLOGISTICA    BTG PACTUAL SORRISO      1800.00        143.00        0.250
+   16/09/26  S-259/26          AGROCHAPADA PARANATI  AMAGGI PARANATINGA       1000.00        129.50        0.250
+   30/09/26  S-260/26          RADAR GESTAO S.PAULO  ARY OLEOFAR               890.00        134.70        0.250
+   30/09/26  S-261/26          JAF AGRONEGOCIOS      ARY OLEOFAR              1650.00        120.00        0.250
+   30/09/26  S-262/26          UFF AGRONEGOCIOS      ARY OLEOFAR               480.00        120.00        0.250
+   30/09/26  S-263/26          ACP BIOENERGIA        ARY OLEOFAR              1500.00        128.00        0.250
+   30/09/26  S-264/26          GEES S.A.             JOSE ANTONIO GORGEN       600.00        120.00        0.250
+   01/10/26  SG-265/26         ALPHAGRAIN DOURADOS   BTG PACTUAL PARANAGU      188.00         73.00        0.340
+
+   --------------------------------------------------------------------------------------------------------------

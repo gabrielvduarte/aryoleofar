@@ -1,0 +1,67 @@
+        CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/10/17 A 31/10/17
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   14/09/17  S.2-217/17     ARIEL HOROVITZ         7525.00     7525.00
+
+   16/05/17  CN.1-083/17    C. VALE DIAMANTINO     2070.00
+   01/09/17  S.1-208/17     C. VALE DIAMANTINO     4691.67     6761.67
+
+   08/08/17  CN.1-183/17    C. VALE NOVA MUTUM     2812.50
+   10/08/17  CN.1-185/17    C. VALE NOVA MUTUM     1560.37
+   10/08/17  CN.1-186/17    C. VALE NOVA MUTUM     2337.56
+   05/09/17  S.1-209/17     C. VALE NOVA MUTUM     7075.00
+   19/09/17  CN.1-223/17    C. VALE NOVA MUTUM     2500.00    16285.43
+
+   12/04/17  CN.1-066/17    C. VALE NOVA UBIRATA    685.00      685.00
+
+   23/06/16  CN.1-170/16    C. VALE SANTA CARMEM    812.50
+   14/09/17  S.1-222/17     C. VALE SANTA CARMEM   2312.50     3125.00
+
+   15/06/17  S.1-137/17     CREMACQ RIBEIRO         984.01      984.01
+
+   21/04/16  S.1-103/16     CRUZEIRO / CREMACQ      984.87      984.87
+
+   03/03/17  CN.1-042/17    CRUZEIRO DO SUL       17729.56
+   10/05/17  CN.1-082/17    CRUZEIRO DO SUL        5428.82
+   18/05/17  CN.1-088/17    CRUZEIRO DO SUL        1226.21
+   23/05/17  CN.1-098/17    CRUZEIRO DO SUL         611.54
+   08/06/17  S.1-127/17     CRUZEIRO DO SUL       12034.27
+   21/06/17  CN.1-140/17    CRUZEIRO DO SUL        1523.21
+   14/06/16  S.1-166/16     CRUZEIRO DO SUL        1584.27
+   31/07/17  S.1-176/17     CRUZEIRO DO SUL         844.73    40982.61
+
+   30/03/16  S.1-082/16     CRUZEIRO OU CREMACQ    4079.84     4079.84
+
+   14/08/17  S.1-192/17     CRUZEIROS DO SUL        757.38      757.38
+
+   05/09/17  S.1-211/17     I.B.F. P.D.L.          6750.00     6750.00
+
+   11/07/17  CN.1-165/17    IMPACTO SORRISO         374.88      374.88
+
+   15/06/16  CN.1-168/16    MOCELLIN E HOLZ VERA   3762.50     3762.50
+
+   26/04/17  S.2-072/17     RIBEIRAO               9900.00
+   06/06/17  S.2-119/17     RIBEIRAO              18720.00    28620.00
+
+   06/06/17  S.2-118/17     ROYAL AGRO ANTONIO     5552.00
+   07/06/17  S.2-121/17     ROYAL AGRO ANTONIO     2333.33
+   08/06/17  S.2-128/17     ROYAL AGRO ANTONIO    35480.00
+   29/06/17  CN.2-144/17    ROYAL AGRO ANTONIO     5519.93
+   30/06/17  CN.2-146/17    ROYAL AGRO ANTONIO     3728.02    52613.28
+
+   27/01/17  CN.1-023/17    SIPAL NOVA MUTUM       7687.50
+   07/02/17  CN.1-030/17    SIPAL NOVA MUTUM       3854.17
+   07/02/17  CN.1-031/17    SIPAL NOVA MUTUM       3854.17    15395.84
+
+
+
+                                                               Continua ...        CONTRATOS DE GRAOS M.I. RECEBIDOS DE 01/10/17 A 31/10/17
+
+   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
+                                                   R$               R$
+   08/06/17  S.1-126/17     ZMACQ NAVIRAI          3750.00     3750.00
+
+
+
+                                           TOTAL  :          193437.31
