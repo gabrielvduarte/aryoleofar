@@ -1,64 +1,159 @@
+import { alterarCampo } from './alterar.js';
 import dbffile from 'dbffile';
 const { DBFFile } = dbffile;
 
 import readlineSync from 'readline-sync';
 
+const path = 'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.DBF';
 
 
-const path = 'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.DBF'
+async function buscarLinhasPorTexto(termoBusca, campoBusca) {
+    const dbf = await DBFFile.open(path);
+    const todosRegistros = await dbf.readRecords(dbf.recordCount);
 
-async function buscarLinhaPorTexto(termoBusca) {
-        try {
-            const dbf = await DBFFile.open(path);
-            
-            // Lê TODAS as colunas de todos os registros
-            const todosRegistros = await dbf.readRecords(dbf.recordCount);
-            
-            // Transforma o termo em minúsculo para a busca não diferenciar "Roque" de "roque"
-            const termoFormatado = String(termoBusca).toLowerCase().trim();
+    const termoFormatado = String(termoBusca).toLowerCase().trim();
 
-            // Procura a primeira linha que dê match
-            const linhaEncontrada = todosRegistros.find(linha => {
-                // Transforma todos os valores da linha em texto e verifica se o termo está ali dentro
-                return Object.values(linha).some(valor => 
-                    String(valor).toLowerCase().includes(termoFormatado)
-                );
-            });
+    return todosRegistros
+        .map((dados, indiceOriginal) => ({ dados, indiceOriginal }))
+        .filter(({ dados }) => {
+            const valores = campoBusca === '*'
+                ? Object.values(dados)
+                : [dados[campoBusca]];
 
-            return linhaEncontrada || null;
-        } catch (erro) {
-            console.error('Erro ao buscar no DBF:', erro);
-            throw erro;
-        }
+            return valores.some(valor =>
+                valor !== null &&
+                valor !== undefined &&
+                String(valor).toLowerCase().includes(termoFormatado)
+            );
+        });
+}
+
+
+    
+async function desejaAlterar(campos, resultadoSelecionado) {
+    const resposta = readlineSync.question(
+        '\nDeseja alterar algum campo? (s/n): '
+    ).trim().toLowerCase();
+
+    if (resposta !== 's') {
+        return;
     }
+
+    console.log('\n=== CAMPOS DISPONÍVEIS ===');
+
+    campos.forEach((campo, indice) => {
+        console.log(`${indice + 1}. ${campo}`);
+    });
+
+    const opcaoCampo = readlineSync.questionInt(
+        '\nEscolha o campo que deseja alterar: ',
+        {
+            limit: campos.map((_, i) => String(i + 1)),
+            limitMessage: 'Escolha um campo válido.'
+        }
+    );
+
+    const campo = campos[opcaoCampo - 1];
+
+    const novoValor = readlineSync.question(
+        `Digite o novo valor para ${campo}: `
+    );
+
+    await alterarCampo(
+        resultadoSelecionado.indiceOriginal,
+        campo,
+        novoValor
+    );
+}
 
 
 export async function executar() {
-
-    const readlinesync = ('readline');
-
-    const nome = readlineSync.question('Qual o nome que deseja buscar? ');
-   
-    console.log('Iniciando busca...');
-     
-    // EXEMPLO DE BUSCA: Pode ser um nome, um e-mail, um CPF ou endereço
-    const oQueProcurar = nome; 
-
     try {
-        // Executa a busca na linha completa
-        const linhaCompleta = await buscarLinhaPorTexto(oQueProcurar);
+        const dbf = await DBFFile.open(path);
 
-        if (linhaCompleta) {
-            console.log('Linha localizada com sucesso! Dados completos:');
-            await console.log(linhaCompleta);
-            
-            // Se quiser acessar um campo específico dela depois:
-            // console.log('O email dele é:', linhaCompleta.EMAIL);
-        } else {
-            console.log(`Nenhum registro encontrado com o termo: "${oQueProcurar}"`);
+        // Identifica os campos disponíveis no arquivo
+        const registros = await dbf.readRecords(1);
+
+        if (registros.length === 0) {
+            console.log('O arquivo DBF não possui registros.');
+            return;
         }
-    } catch (erro) {
-        console.error('Ocorreu um erro ao processar o DBF:', erro.message);
+
+        const campos = Object.keys(registros[0]);
+
+        console.log('\n=== CAMPOS DISPONÍVEIS ===');
+
+        campos.forEach((campo, indice) => {
+            console.log(`${indice + 1}. ${campo}`);
+        });
+
+        console.log(`${campos.length + 1}. Pesquisar em todos os campos`);
+
+        // Escolhe o campo de pesquisa
+        const opcao = readlineSync.questionInt(
+            '\nEscolha o campo pelo numero: ',
+            {
+                limit: campos.map((_, i) => String(i + 1))
+                    .concat(String(campos.length + 1)),
+                limitMessage: 'Escolha uma opcao valida.'
+            }
+        );
+
+        const campoBusca = opcao === campos.length + 1
+            ? '*'
+            : campos[opcao - 1];
+
+        const termo = readlineSync.question(
+            '\nDigite o termo que deseja buscar: '
+        ).trim();
+
+        if (!termo) {
+            console.log('O termo de busca nao pode estar vazio.');
+            return;
+        }
+
+        console.log('\nIniciando busca...');
+
+        const resultados = await buscarLinhasPorTexto(
+            termo,
+            campoBusca
+        );
+
+        if (resultados.length === 0) {
+            console.log('\nNenhum registro encontrado.');
+            return;
+        }
+
+        console.log(`\nForam encontrados ${resultados.length} registro(s).`);
+
+        // Percorre os resultados e permite avançar
+        
+let resultadoSelecionado = resultados[0];
+
+for (let i = 0; i < resultados.length; i++) {
+    resultadoSelecionado = resultados[i];
+
+    console.log(`\n=== RESULTADO ${i + 1} DE ${resultados.length} ===`);
+    console.log(resultadoSelecionado.dados);
+
+    if (i < resultados.length - 1) {
+        const resposta = readlineSync.question(
+            '\nDeseja ver o proximo resultado? (s/n): '
+        ).trim().toLowerCase();
+
+        if (resposta !== 's') {
+            console.log('\nBusca encerrada.');
+            break;
+        }
     }
 }
 
+await desejaAlterar(campos, resultadoSelecionado);
+
+console.log('\nFim da busca.');
+
+
+    } catch (erro) {
+        console.error('\nOcorreu um erro ao processar o DBF:', erro.message);
+    }
+}
