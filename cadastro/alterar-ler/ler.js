@@ -142,7 +142,7 @@ for (let i = 0; i < resultados.length; i++) {
         ).trim().toLowerCase();
 
         if (resposta !== 's') {
-            console.log('\nBusca encerrada.');
+            
             break;
         }
     }

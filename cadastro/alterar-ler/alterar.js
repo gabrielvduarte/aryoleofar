@@ -1,4 +1,4 @@
-
+import path from 'node:path';
 import fs from 'node:fs/promises';
 import readlineSync from 'readline-sync';
 
@@ -117,7 +117,7 @@ export async function alterarCampo(indiceRegistro, campo, novoValor) {
     }
 
     console.log('\n=== ALTERAÇÃO DE CADASTRO ===');
-    console.log(`Registro ativo: ${indiceRegistro}`);
+    console.log(`Registro ativo: ${indiceRegistro + 2}`);
     console.log(`Campo: ${definicao.nome}`);
     console.log(`Valor atual: ${valorAtual}`);
     console.log(`Novo valor: ${String(novoValor)}`);
@@ -133,7 +133,12 @@ export async function alterarCampo(indiceRegistro, campo, novoValor) {
     }
 
     // Cria um backup único antes de modificar o original.
-    const backup = `${caminho}.${Date.now()}.bak`;
+    const pastaBackup = path.join(path.dirname(caminho), 'backup');
+
+    await fs.mkdir(pastaBackup, { recursive: true });
+
+    const nomeBackup = `CADCLI-${Date.now()}.bak`;
+    const backup = path.join(pastaBackup, nomeBackup);
     await fs.copyFile(caminho, backup);
 
     // Grava somente os bytes do campo escolhido.
