@@ -1,6 +1,11 @@
 import { executar } from "./cadastro/alterar-ler/ler.js"
-import { incluirContrato } from "./cadastro/incluir/incluir.js";
 
+import { gerar } from "./cadastro/alterar-ler/incluir/geradorDeCodigo.js"
+import { incluir } from "./cadastro/alterar-ler/incluir/incluir.js";
 
 //Executa busca de contrato
-incluirContrato();
+
+
+//incluir();
+
+executar()

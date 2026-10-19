@@ -1,9 +1,0 @@
-     CONTRATOS DE PERFORMANCE M.I. RECEBIDOS DE 01/03/00 A 31/03/00
-
-DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
-                                                R$               R$
-28/01/00  PI.8-001/00    COINBRA FRUTESP        4945.63     4945.63
-
-
-
-                                        TOTAL  :            4945.63

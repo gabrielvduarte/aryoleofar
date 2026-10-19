@@ -1,9 +1,0 @@
-        CONTRATOS DE FARELO M.I. RECEBIDOS DE 01/10/20 A 31/10/20
-
-   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
-                                                   R$               R$
-   30/09/20  RK/F.7-016/20  TRES TENTOS IJUI        392.79      392.79
-
-
-
-                                           TOTAL  :             392.79

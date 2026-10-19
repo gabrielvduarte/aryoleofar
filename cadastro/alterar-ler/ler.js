@@ -1,35 +1,84 @@
+
 import { alterarCampo } from './alterar.js';
-import dbffile from 'dbffile';
-const { DBFFile } = dbffile;
-
 import readlineSync from 'readline-sync';
+import ExcelJS from 'exceljs';
 
-const path = 'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.DBF';
+const caminho =
+    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.xlsx';
 
+async function abrirPlanilha() {
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(caminho);
 
-async function buscarLinhasPorTexto(termoBusca, campoBusca) {
-    const dbf = await DBFFile.open(path);
-    const todosRegistros = await dbf.readRecords(dbf.recordCount);
+    const planilha = workbook.worksheets[0];
 
-    const termoFormatado = String(termoBusca).toLowerCase().trim();
+    if (!planilha) {
+        throw new Error('Nenhuma planilha encontrada no arquivo.');
+    }
 
-    return todosRegistros
-        .map((dados, indiceOriginal) => ({ dados, indiceOriginal }))
-        .filter(({ dados }) => {
-            const valores = campoBusca === '*'
-                ? Object.values(dados)
-                : [dados[campoBusca]];
-
-            return valores.some(valor =>
-                valor !== null &&
-                valor !== undefined &&
-                String(valor).toLowerCase().includes(termoFormatado)
-            );
-        });
+    return planilha;
 }
 
+async function buscarLinhasPorTexto(termoBusca, campoBusca) {
+    const planilha = await abrirPlanilha();
 
-    
+    // A primeira linha contém os nomes dos campos.
+    const cabecalho = planilha.getRow(1);
+    const colunas = [];
+
+    cabecalho.eachCell((celula, numeroColuna) => {
+        const nome = String(celula.value ?? '').trim();
+
+        if (nome) {
+            colunas.push({
+                nome,
+                numeroColuna
+            });
+        }
+    });
+
+    const termoFormatado = String(termoBusca).toLowerCase().trim();
+    const resultados = [];
+
+    // Os registros começam na linha 2.
+    for (let numeroLinha = 2; numeroLinha <= planilha.rowCount; numeroLinha++) {
+        const linha = planilha.getRow(numeroLinha);
+
+        if (!linha.hasValues) {
+            continue;
+        }
+
+        const dados = {};
+
+        for (const coluna of colunas) {
+            dados[coluna.nome] = linha.getCell(coluna.numeroColuna).value;
+        }
+
+        const valores = campoBusca === '*'
+            ? Object.values(dados)
+            : [dados[campoBusca]];
+
+        const encontrou = valores.some(valor =>
+            valor !== null &&
+            valor !== undefined &&
+            String(valor).toLowerCase().includes(termoFormatado)
+        );
+
+        if (encontrou) {
+            resultados.push({
+                dados,
+                // Compatível com alterar.js: primeiro registro = índice 0.
+                indiceOriginal: numeroLinha - 2
+            });
+        }
+    }
+
+    return {
+        resultados,
+        campos: colunas.map(coluna => coluna.nome)
+    };
+}
+
 async function desejaAlterar(campos, resultadoSelecionado) {
     const resposta = readlineSync.question(
         '\nDeseja alterar algum campo? (s/n): '
@@ -66,20 +115,24 @@ async function desejaAlterar(campos, resultadoSelecionado) {
     );
 }
 
-
 export async function executar() {
     try {
-        const dbf = await DBFFile.open(path);
+        const planilha = await abrirPlanilha();
+        const cabecalho = planilha.getRow(1);
+        const campos = [];
 
-        // Identifica os campos disponíveis no arquivo
-        const registros = await dbf.readRecords(1);
+        cabecalho.eachCell((celula) => {
+            const nome = String(celula.value ?? '').trim();
 
-        if (registros.length === 0) {
-            console.log('O arquivo DBF não possui registros.');
+            if (nome) {
+                campos.push(nome);
+            }
+        });
+
+        if (campos.length === 0) {
+            console.log('A planilha não possui cabeçalhos.');
             return;
         }
-
-        const campos = Object.keys(registros[0]);
 
         console.log('\n=== CAMPOS DISPONÍVEIS ===');
 
@@ -89,13 +142,12 @@ export async function executar() {
 
         console.log(`${campos.length + 1}. Pesquisar em todos os campos`);
 
-        // Escolhe o campo de pesquisa
         const opcao = readlineSync.questionInt(
             '\nEscolha o campo pelo numero: ',
             {
                 limit: campos.map((_, i) => String(i + 1))
                     .concat(String(campos.length + 1)),
-                limitMessage: 'Escolha uma opcao valida.'
+                limitMessage: 'Escolha uma opção válida.'
             }
         );
 
@@ -108,13 +160,13 @@ export async function executar() {
         ).trim();
 
         if (!termo) {
-            console.log('O termo de busca nao pode estar vazio.');
+            console.log('O termo de busca não pode estar vazio.');
             return;
         }
 
         console.log('\nIniciando busca...');
 
-        const resultados = await buscarLinhasPorTexto(
+        const { resultados } = await buscarLinhasPorTexto(
             termo,
             campoBusca
         );
@@ -126,34 +178,33 @@ export async function executar() {
 
         console.log(`\nForam encontrados ${resultados.length} registro(s).`);
 
-        // Percorre os resultados e permite avançar
-        
-let resultadoSelecionado = resultados[0];
+        let resultadoSelecionado = resultados[0];
 
-for (let i = 0; i < resultados.length; i++) {
-    resultadoSelecionado = resultados[i];
+        for (let i = 0; i < resultados.length; i++) {
+            resultadoSelecionado = resultados[i];
 
-    console.log(`\n=== RESULTADO ${i + 1} DE ${resultados.length} ===`);
-    console.log(resultadoSelecionado.dados);
+            console.log(`\n=== RESULTADO ${i + 1} DE ${resultados.length} ===`);
+            console.log(resultadoSelecionado.dados);
 
-    if (i < resultados.length - 1) {
-        const resposta = readlineSync.question(
-            '\nDeseja ver o proximo resultado? (s/n): '
-        ).trim().toLowerCase();
+            if (i < resultados.length - 1) {
+                const resposta = readlineSync.question(
+                    '\nDeseja ver o proximo resultado? (s/n): '
+                ).trim().toLowerCase();
 
-        if (resposta !== 's') {
-            
-            break;
+                if (resposta !== 's') {
+                    break;
+                }
+            }
         }
-    }
-}
 
-await desejaAlterar(campos, resultadoSelecionado);
+        await desejaAlterar(campos, resultadoSelecionado);
 
-console.log('\nFim da busca.');
-
+        console.log('\nFim da busca.');
 
     } catch (erro) {
-        console.error('\nOcorreu um erro ao processar o DBF:', erro.message);
+        console.error(
+            '\nOcorreu um erro ao processar o XLSX:',
+            erro.message
+        );
     }
 }

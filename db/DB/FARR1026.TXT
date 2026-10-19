@@ -1,9 +1,0 @@
-        CONTRATOS DE FARELO M.I. RECEBIDOS DE 01/10/26 A 31/10/26
-
-   DATA      CONTRATO       VENDEDOR             VALOR           SUB-TOTAL
-                                                   R$               R$
-   28/04/26  F.6-008/26     COCAMAR MARINGA       64883.52    64883.52
-
-
-
-                                           TOTAL  :           64883.52

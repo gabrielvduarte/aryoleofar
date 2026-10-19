@@ -13,6 +13,7 @@
   "dependencies": {
     "csv": "^6.6.4",
     "dbffile": "^1.14.1",
+    "exceljs": "^4.4.0",
     "readline-sync": "^1.4.10"
   }
 }

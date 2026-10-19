@@ -1,126 +1,85 @@
+
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import readlineSync from 'readline-sync';
+import ExcelJS from 'exceljs';
 
-const caminho = 'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.DBF';
+const caminho =
+    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.xlsx';
 
 export async function alterarCampo(indiceRegistro, campo, novoValor) {
-    const arquivo = await fs.readFile(caminho);
-
-    // Lê as informações estruturais do DBF.
-    const quantidadeRegistros = arquivo.readUInt32LE(4);
-    const tamanhoCabecalho = arquivo.readUInt16LE(8);
-    const tamanhoRegistro = arquivo.readUInt16LE(10);
-
-    if (
-        !Number.isInteger(indiceRegistro) ||
-        indiceRegistro < 0
-    ) {
+    if (!Number.isInteger(indiceRegistro) || indiceRegistro < 0) {
         throw new Error('Índice de registro inválido.');
     }
 
-    // Identifica os campos e seus deslocamentos dentro do registro.
-    const campos = [];
-    let posicao = 32;
-    let deslocamento = 1; // O primeiro byte indica exclusão do registro.
+    // 1. Abre a planilha Excel.
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(caminho);
 
-    while (posicao < tamanhoCabecalho && arquivo[posicao] !== 0x0D) {
-        const nome = arquivo
-            .subarray(posicao, posicao + 11)
-            .toString('ascii')
-            .replace(/\0.*$/, '')
-            .trim();
+    const planilha = workbook.worksheets[0];
 
-        const tipo = String.fromCharCode(arquivo[posicao + 11]);
-        const tamanho = arquivo[posicao + 16];
-
-        campos.push({ nome, tipo, tamanho, deslocamento });
-
-        deslocamento += tamanho;
-        posicao += 32;
+    if (!planilha) {
+        throw new Error('Nenhuma planilha encontrada no arquivo.');
     }
 
-    const definicao = campos.find(
-        f => f.nome.toUpperCase() === campo.toUpperCase()
-    );
+    // 2. Lê os nomes dos campos na primeira linha.
+    const cabecalho = planilha.getRow(1);
+    let numeroColuna = -1;
+    let nomeCampo = '';
 
-    if (!definicao) {
-        throw new Error(`O campo "${campo}" não existe no DBF.`);
-    }
+    cabecalho.eachCell((celula, coluna) => {
+        const nome = String(celula.value ?? '').trim();
 
-    if (!['C', 'L'].includes(definicao.tipo)) {
-        throw new Error(
-            `O campo "${definicao.nome}" tem tipo ${definicao.tipo}, não suportado por esta rotina.`
-        );
-    }
-
-    // Converte o índice da lista de registros ativos para o índice físico do arquivo.
-    let ativosEncontrados = 0;
-    let indiceFisico = -1;
-
-    for (let i = 0; i < quantidadeRegistros; i++) {
-        const inicio = tamanhoCabecalho + i * tamanhoRegistro;
-
-        if (inicio + tamanhoRegistro > arquivo.length) {
-            throw new Error('Estrutura do DBF inconsistente.');
+        if (nome.toUpperCase() === campo.trim().toUpperCase()) {
+            numeroColuna = coluna;
+            nomeCampo = nome;
         }
+    });
 
-        if (arquivo[inicio] !== 0x2A) {
-            if (ativosEncontrados === indiceRegistro) {
-                indiceFisico = i;
-                break;
-            }
-
-            ativosEncontrados++;
-        }
+    if (numeroColuna === -1) {
+        throw new Error(`O campo "${campo}" não existe na planilha.`);
     }
 
-    if (indiceFisico === -1) {
+    // 3. Encontra o registro.
+    // O índice 0 corresponde à linha 2 do Excel.
+    const numeroLinha = indiceRegistro + 2;
+    const linha = planilha.getRow(numeroLinha);
+
+    if (!linha.hasValues) {
         throw new Error('Registro não encontrado ou índice inválido.');
     }
 
-    const inicioRegistro =
-        tamanhoCabecalho + indiceFisico * tamanhoRegistro;
+    const celula = linha.getCell(numeroColuna);
+    const valorAtual = celula.value;
 
-    const inicioCampo = inicioRegistro + definicao.deslocamento;
+    // 4. Prepara o novo valor.
+    let valorNovo;
 
-    const valorAtual = arquivo
-        .subarray(inicioCampo, inicioCampo + definicao.tamanho)
-        .toString('latin1')
-        .trim();
-
-    let bytesNovos;
-
-    if (definicao.tipo === 'C') {
-        const texto = String(novoValor);
-        bytesNovos = Buffer.from(texto, 'latin1');
-
-        if (bytesNovos.length > definicao.tamanho) {
-            throw new Error(
-                `O valor excede o limite de ${definicao.tamanho} caracteres/bytes do campo.`
-            );
-        }
-
-        const preenchido = Buffer.alloc(definicao.tamanho, 0x20);
-        bytesNovos.copy(preenchido);
-        bytesNovos = preenchido;
-    } else {
+    if (
+        typeof valorAtual === 'boolean' ||
+        nomeCampo.toUpperCase() === 'ETIQ'
+    ) {
         const resposta = String(novoValor).trim().toLowerCase();
 
         if (['s', 'sim', 'true', '1', 't'].includes(resposta)) {
-            bytesNovos = Buffer.from('T');
-        } else if (['n', 'nao', 'não', 'false', '0', 'f'].includes(resposta)) {
-            bytesNovos = Buffer.from('F');
+            valorNovo = true;
+        } else if (
+            ['n', 'nao', 'não', 'false', '0', 'f'].includes(resposta)
+        ) {
+            valorNovo = false;
         } else {
-            throw new Error('Para ETIQ, informe sim ou não.');
+            throw new Error('Informe sim ou não para esse campo.');
         }
+    } else {
+        valorNovo = String(novoValor);
     }
 
+    // 5. Mostra os dados e pede confirmação.
     console.log('\n=== ALTERAÇÃO DE CADASTRO ===');
-    console.log(`Registro ativo: ${indiceRegistro + 2}`);
-    console.log(`Campo: ${definicao.nome}`);
-    console.log(`Valor atual: ${valorAtual}`);
-    console.log(`Novo valor: ${String(novoValor)}`);
+    console.log(`Registro: ${numeroLinha}`);
+    console.log(`Campo: ${nomeCampo}`);
+    console.log(`Valor atual: ${valorAtual ?? '(vazio)'}`);
+    console.log(`Novo valor: ${valorNovo}`);
 
     const confirmar = readlineSync
         .question('\nConfirma a alteração? (s/n): ')
@@ -132,30 +91,23 @@ export async function alterarCampo(indiceRegistro, campo, novoValor) {
         return;
     }
 
-    // Cria um backup único antes de modificar o original.
-    const pastaBackup = path.join(path.dirname(caminho), 'backup');
+    // 6. Cria um backup antes de salvar.
+    const pastaBackup = path.join(
+        path.dirname(caminho),
+        'backup'
+    );
 
     await fs.mkdir(pastaBackup, { recursive: true });
 
-    const nomeBackup = `CADCLI-${Date.now()}.bak`;
+    const nomeBackup = `CADCLI-${Date.now()}.xlsx`;
     const backup = path.join(pastaBackup, nomeBackup);
+
     await fs.copyFile(caminho, backup);
 
-    // Grava somente os bytes do campo escolhido.
-    const arquivoAberto = await fs.open(caminho, 'r+');
+    // 7. Altera a célula e salva o arquivo original.
+    celula.value = valorNovo;
 
-    try {
-        await arquivoAberto.write(
-            bytesNovos,
-            0,
-            bytesNovos.length,
-            inicioCampo
-        );
-
-        await arquivoAberto.sync();
-    } finally {
-        await arquivoAberto.close();
-    }
+    await workbook.xlsx.writeFile(caminho);
 
     console.log('\nAlteração gravada com sucesso!');
     console.log(`Backup criado em: ${backup}`);
