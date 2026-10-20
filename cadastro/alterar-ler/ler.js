@@ -26,6 +26,8 @@ async function buscarLinhasPorTexto(termoBusca, campoBusca) {
     const cabecalho = planilha.getRow(1);
     const colunas = [];
 
+    
+
     cabecalho.eachCell((celula, numeroColuna) => {
         const nome = String(celula.value ?? '').trim();
 

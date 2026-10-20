@@ -1,0 +1,7 @@
+NOME: teste2
+ENDERECO: teste 2
+CIDADE: teste 2
+ESTADO: teste 2
+CEP: 
+CGC: 
+INSC: 

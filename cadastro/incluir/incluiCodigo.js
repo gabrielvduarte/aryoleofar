@@ -1,11 +1,16 @@
+
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import readlineSync from 'readline-sync';
 import ExcelJS from 'exceljs';
-import { gerar } from './geradorDeCodigo.js';
 
 const caminho =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.xlsx';
+
+const pastaContratos = path.join(
+    path.dirname(caminho),
+    'CLI'
+);
 
 const campos = [
     'CODIGO',
@@ -26,9 +31,13 @@ const campos = [
     'ETIQ'
 ];
 
- export async function incluirCadastro(ncode) {
+export async function incluirCadastro(ncode) {
     try {
-        // 1. Abre a planilha.
+        if (!ncode) {
+            throw new Error('O código do cadastro não foi informado.');
+        }
+
+        // 1. Abre a planilha Excel.
         const workbook = new ExcelJS.Workbook();
         await workbook.xlsx.readFile(caminho);
 
@@ -52,7 +61,7 @@ const campos = [
             }
         });
 
-        // 3. Confere se todos os campos existem.
+        // 3. Verifica se todos os campos existem.
         const camposAusentes = campos.filter(
             campo => !colunas[campo]
         );
@@ -63,7 +72,7 @@ const campos = [
             );
         }
 
-        // 4. Solicita os dados.
+        // 4. Solicita os dados do cadastro.
         const dados = {};
 
         console.log('\n=== INCLUIR NOVO CONTRATO ===');
@@ -71,12 +80,18 @@ const campos = [
 
         for (const campo of campos) {
             if (campo === 'CODIGO') {
-                dados[campo] = ncode
-                console.log(`CODIGO gerado automaticamente: ${dados[campo]}`);
+                dados[campo] = String(ncode);
+
+                console.log(
+                    `CODIGO gerado automaticamente: ${dados[campo]}`
+                );
+
                 continue;
             }
 
-            dados[campo] = readlineSync.question(`${campo}: `).trim();
+            dados[campo] = readlineSync
+                .question(`${campo}: `)
+                .trim();
         }
 
         // 5. Exibe os dados para conferência.
@@ -86,16 +101,17 @@ const campos = [
             console.log(`${campo}: ${dados[campo] || '(vazio)'}`);
         }
 
-        const confirmar = readlineSync.question(
-            '\nDeseja salvar esse cadastro? (s/n): '
-        ).trim().toLowerCase();
+        const confirmar = readlineSync
+            .question('\nDeseja salvar esse cadastro? (s/n): ')
+            .trim()
+            .toLowerCase();
 
         if (confirmar !== 's') {
             console.log('\nInclusão cancelada.');
             return;
         }
 
-        // 6. Cria o backup antes de modificar o arquivo.
+        // 6. Cria o backup do Excel.
         const pastaBackup = path.join(
             path.dirname(caminho),
             'backup'
@@ -108,7 +124,7 @@ const campos = [
 
         await fs.copyFile(caminho, caminhoBackup);
 
-        // 7. Encontra a próxima linha disponível.
+        // 7. Encontra a última linha com dados.
         let numeroLinha = planilha.rowCount;
 
         while (
@@ -120,20 +136,60 @@ const campos = [
 
         numeroLinha++;
 
+        // 8. Preenche os 16 campos na nova linha.
         const novaLinha = planilha.getRow(numeroLinha);
 
-        // 8. Preenche cada campo na coluna correspondente.
         for (const campo of campos) {
-            
             novaLinha.getCell(colunas[campo]).value = dados[campo];
         }
 
-        // 9. Salva o arquivo.
-        await workbook.xlsx.writeFile(caminho);
+        // 9. Prepara o TXT com somente os 7 campos desejados.
+        // Não inclui CODIGO nem os campos posteriores a INSC.
+        const camposTxt = campos.slice(1, 8);
+
+        const conteudoTxt = camposTxt
+            .map(campo => `${campo}: ${dados[campo] ?? ''}`)
+            .join('\n');
+
+        const caminhoTxt = path.join(
+            pastaContratos,
+            `${dados.CODIGO}.txt`
+        );
+
+        // 10. Verifica se já existe um TXT com esse código.
+        await fs.mkdir(pastaContratos, { recursive: true });
+
+        try {
+            await fs.access(caminhoTxt);
+
+            throw new Error(
+                `Já existe um arquivo TXT para o código ${dados.CODIGO}.`
+            );
+        } catch (erro) {
+            if (erro.code !== 'ENOENT') {
+                throw erro;
+            }
+        }
+
+        // 11. Salva o TXT e depois o Excel.
+        await fs.writeFile(caminhoTxt, conteudoTxt, {
+            encoding: 'utf8',
+            flag: 'wx'
+        });
+
+        try {
+            await workbook.xlsx.writeFile(caminho);
+        } catch (erro) {
+            // Se o Excel falhar, remove o TXT recém-criado.
+            await fs.unlink(caminhoTxt).catch(() => {});
+            throw erro;
+        }
 
         console.log('\nCadastro incluído com sucesso!');
-        console.log(`Linha adicionada: ${numeroLinha}`);
+        console.log(`Linha adicionada no Excel: ${numeroLinha}`);
         console.log(`Backup criado em: ${caminhoBackup}`);
+        console.log(`TXT criado em: ${caminhoTxt}`);
+
     } catch (erro) {
         console.error('\nErro ao incluir cadastro:', erro.message);
     }
