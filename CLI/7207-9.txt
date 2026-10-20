@@ -1,0 +1,7 @@
+NOME: teste 3
+ENDERECO: teste 3
+CIDADE: teste 3
+ESTADO: teste 3
+CEP: teste 3
+CGC: teste 3
+INSC: teste 3
