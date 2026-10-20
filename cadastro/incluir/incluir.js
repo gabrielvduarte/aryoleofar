@@ -6,7 +6,7 @@ import { incluirCadastro } from "./incluiCodigo.js";
 const { DBFFile } = dbffile;
 
 const path =
-    "C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCOD.DBF";
+    "C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/db/CADCOD.DBF";
 
 export async function incluir() {
     // 1. Ler o contador atual

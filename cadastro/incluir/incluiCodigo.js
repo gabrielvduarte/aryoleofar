@@ -5,7 +5,7 @@ import readlineSync from 'readline-sync';
 import ExcelJS from 'exceljs';
 
 const caminho =
-    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.xlsx';
+    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/db/CADCLI.xlsx';
 
 const pastaContratos = path.join(
     path.dirname(caminho),

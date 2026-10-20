@@ -5,7 +5,7 @@ import readlineSync from 'readline-sync';
 import ExcelJS from 'exceljs';
 
 const caminho =
-    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/CADCLI.xlsx';
+    'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar//db/CADCLI.xlsx';
 
 export async function alterarCampo(indiceRegistro, campo, novoValor) {
     if (!Number.isInteger(indiceRegistro) || indiceRegistro < 0) {
