@@ -1,0 +1,22 @@
+{
+    "mercado-interno" : {
+        "DATA": "",
+        "SIGLA": "",
+        "NUMERO": "",
+        "ANO": "",
+        "VEND": "",
+        "COMPRADOR": "",
+        "QUANT": "",
+        "PRECO": "",
+        "COMISSAo": "", 
+        "EMBARQUE": "",
+        "PAGAMENTO": "",
+        "OBS": "",
+        "SHPMT1": "",
+        "SHPMT2": "",
+        "VENCTO": "",
+        "PRVISAO": "",
+        "LIQUIDADO": ""
+        
+    }
+}

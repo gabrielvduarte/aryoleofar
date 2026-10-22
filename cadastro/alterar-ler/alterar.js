@@ -3,6 +3,7 @@ import path from 'node:path';
 import fs from 'node:fs/promises';
 import readlineSync from 'readline-sync';
 import ExcelJS from 'exceljs';
+import { json } from 'node:stream/consumers';
 
 const caminho =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar//db/CADCLI.xlsx';
