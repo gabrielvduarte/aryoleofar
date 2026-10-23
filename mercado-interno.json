@@ -1,22 +1,22 @@
 {
     "mercado-interno" : {
-        "DATA": "",
-        "SIGLA": "",
-        "NUMERO": "",
-        "ANO": "",
-        "VEND": "",
-        "COMPRADOR": "",
-        "QUANT": "",
-        "PRECO": "",
-        "COMISSAo": "", 
-        "EMBARQUE": "",
-        "PAGAMENTO": "",
-        "OBS": "",
-        "SHPMT1": "",
-        "SHPMT2": "",
-        "VENCTO": "",
-        "PRVISAO": "",
-        "LIQUIDADO": ""
+        "DATA": "DATA",
+        "SIGLA": "SIGLA",
+        "NUMERO": "NUMERO",
+        "ANO": "ANO",
+        "VEND": "SELLER",
+        "COMPRADOR": "BUYER",
+        "QUANT": "QUANT1",
+        "PRECO": "PRICE",
+        "COMISSAo": "COMISSAo", 
+        "EMBARQUE": "EMBARQUE, EMBARQUE 2",
+        "PAGAMENTO": "PAGAMENTO, PAGAMENTO 2",
+        "OBS": "OBS, OBS 2, OBS 3",
+        "SHPMT1": "SHPMT1",
+        "SHPMT2": "SHPMT2",
+        "VENCTO": "VENCTO",
+        "PRVISAO": "PREVISAO",
+        "LIQUIDADO": "LIQUIDADO"
         
     }
 }

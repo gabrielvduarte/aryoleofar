@@ -8,62 +8,172 @@ const pastaProjeto =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar';
 
 export class MercadoInterno {
-    async InclusaoDeContratoNoMI() {
-        const caminhoJson = path.join(
+    constructor() {
+        this.caminhoExcel = path.join(
+        pastaProjeto,
+        'db',
+        'SOJA26.xlsx'
+    );
+        this.caminhoJson = path.join(
             pastaProjeto,
             'mercado-interno.json'
         );
+    }
 
-        const ano = String(new Date().getFullYear()).slice(-2);
+    dividirTexto(texto, limite = 30) {
+        const partes = [];
+        let restante = String(texto);
 
-        const caminhoExcel = path.join(
-            pastaProjeto,
-            'db',
-            `SOJA${ano}.xlsx`
-        );
+        while (restante.length > limite) {
+            let corte = restante.lastIndexOf(' ', limite);
 
-        const conteudoJson = await fs.readFile(caminhoJson, 'utf8');
-        const modelo = JSON.parse(conteudoJson);
-        const dados = modelo['mercado-interno'];
+            if (corte <= 0) {
+                corte = limite;
+            }
 
-        for (const campo of Object.keys(dados)) {
-            dados[campo] = readlineSync.question(
-                `Informe ${campo}: `
-            ).trim();
+            partes.push(restante.slice(0, corte));
+            restante = restante.slice(corte).trimStart();
         }
 
-        const workbook = new ExcelJS.Workbook();
-        await workbook.xlsx.readFile(caminhoExcel);
+        partes.push(restante);
 
-        const planilha = workbook.worksheets[0];
-        const cabecalho = planilha.getRow(1);
+        return partes;
+    }
 
+    encontrarUltimaLinhaComDados(planilha) {
         let ultimaLinha = 1;
 
-        for (let n = 2; n <= planilha.rowCount; n++) {
-            const valores = planilha.getRow(n).values;
+        for (let numero = 2; numero <= planilha.rowCount; numero++) {
+            const valores = planilha.getRow(numero).values;
 
-            if (valores.some(valor =>
-                valor !== null &&
-                valor !== undefined &&
-                valor !== ''
-            )) {
-                ultimaLinha = n;
+            const possuiDados = valores.some(
+                valor =>
+                    valor !== null &&
+                    valor !== undefined &&
+                    valor !== ''
+            );
+
+            if (possuiDados) {
+                ultimaLinha = numero;
             }
         }
 
-        const novaLinha = planilha.getRow(ultimaLinha + 1);
-        let coluna = 1;
+        return ultimaLinha;
+    }
 
-        for (const valor of Object.values(dados)) {
+    
+async InclusaoDeContratoNoMI() {
+    const conteudoJson = await fs.readFile(
+    this.caminhoJson,
+    'utf8'
+);
 
-            novaLinha.getCell(coluna).value = valor;
-            coluna++;
+const modelo = JSON.parse(conteudoJson);
+const configuracao = modelo['mercado-interno'];
+
+const dados = {};
+
+for (const campo of Object.keys(configuracao)) {
+    dados[campo] = readlineSync.question(
+        `Informe ${campo}: `
+    ).trim();
+}
+    const workbook = new ExcelJS.Workbook();
+    await workbook.xlsx.readFile(this.caminhoExcel);
+
+    const planilha = workbook.worksheets[0];
+
+    if (!planilha) {
+        throw new Error('Nenhuma planilha encontrada no Excel.');
+    }
+
+    // Identifica as colunas pelo cabeçalho da planilha.
+    const colunas = {};
+
+    planilha.getRow(1).eachCell((celula, numeroColuna) => {
+        const nome = String(celula.value ?? '')
+            .trim()
+            .toUpperCase();
+
+        colunas[nome] = numeroColuna;
+    });
+
+    // Localiza a última linha com dados.
+    let ultimaLinha = 1;
+
+    for (let numero = 2; numero <= planilha.rowCount; numero++) {
+        const valores = planilha.getRow(numero).values;
+
+        if (valores.some(valor =>
+            valor !== null &&
+            valor !== undefined &&
+            valor !== ''
+        )) {
+            ultimaLinha = numero;
+        }
+    }
+
+    const novaLinha = ultimaLinha + 1;
+
+    // Prepara as informações usando as colunas definidas no JSON.
+    const escritas = [];
+
+for (const [campoJson, colunasJson] of Object.entries(configuracao)) {
+    const valor = dados[campoJson];
+
+    if (valor === '') {
+        continue;
+    }
+
+    const nomesColunas = String(colunasJson)
+        .split(',')
+        .map(nome => nome.trim().toUpperCase())
+        .filter(Boolean);
+
+    for (const nomeColuna of nomesColunas) {
+        const numeroColuna = colunas[nomeColuna];
+
+        if (!numeroColuna) {
+            throw new Error(
+                `A coluna "${nomeColuna}" não existe na planilha.`
+            );
         }
 
-
-        await workbook.xlsx.writeFile(caminhoExcel);
-
-        console.log(`Planilha: ${caminhoExcel}`);
+        escritas.push({
+            coluna: numeroColuna,
+            valor
+        });
     }
+
+    }
+
+    // Confere se as células estão livres antes de escrever.
+    for (const escrita of escritas) {
+        const celula = planilha
+            .getRow(novaLinha)
+            .getCell(escrita.coluna);
+
+        if (
+            celula.value !== null &&
+            celula.value !== undefined &&
+            celula.value !== ''
+        ) {
+            throw new Error(
+                `A célula ${celula.address} já contém dados.`
+            );
+        }
+    }
+
+    // Escreve os valores na mesma linha, nas colunas indicadas.
+    for (const escrita of escritas) {
+        planilha.getRow(novaLinha)
+            .getCell(escrita.coluna).value = escrita.valor;
+    }
+
+    await workbook.xlsx.writeFile(this.caminhoExcel);
+
+    console.log('Contrato salvo com sucesso!');
+    console.log(`Linha preenchida: ${novaLinha}`);
+}
+
 }
