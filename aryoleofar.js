@@ -4,7 +4,7 @@ import { executar } from "./cadastro/alterar-ler/ler.js"
 import { gerar } from "./cadastro/incluir/geradorDeCodigo.js"
 import { incluir } from "./cadastro/incluir/incluir.js";
 import { iniciar } from "./M.I/utils.js"
-import { consultarContrato } from "./M.I/consulta.js";
+import { consultarMercadoInterno } from "./M.I/consulta.js";
 
 //Executa busca de contrato
 
@@ -17,5 +17,5 @@ import { consultarContrato } from "./M.I/consulta.js";
 //cancelarCadastro()
 
 //iniciar()
-consultarContrato()
+consultarMercadoInterno()
 

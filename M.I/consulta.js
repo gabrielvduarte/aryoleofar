@@ -1,28 +1,99 @@
-import path from 'node:path';
-import { readFile } from 'node:fs/promises';
-import readlineSync from 'readline-sync';
+
 import ExcelJS from 'exceljs';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import readlineSync from 'readline-sync';
 
 const pastaProjeto =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar';
 
-export async function consultarContrato() {
+const caminhoJSON = path.join(
+    pastaProjeto,
+    'mercado-interno.json'
+);
+
+const produtos = {
+    1: { nome: 'Óleo', arquivo: 'OLEO26.xlsx' },
+    2: { nome: 'Farelo', arquivo: 'FARE26.xlsx' },
+    3: { nome: 'Grãos', arquivo: 'SOJA26.xlsx' }
+};
+
+// Normaliza nomes de cabeçalhos para compará-los.
+function normalizarNome(nome) {
+    return String(nome)
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toUpperCase()
+        .replace(/\s+/g, '')
+        .replace(/_/g, '');
+}
+
+// Relaciona nomes usados no JSON aos cabeçalhos reais.
+function nomeRealColuna(nome) {
+    const nomeNormalizado = normalizarNome(nome);
+
+    const aliases = {
+        OBS: 'OBS1'
+    };
+
+    return aliases[nomeNormalizado] ?? nomeNormalizado;
+}
+
+// Retorna a data sem o deslocamento do fuso horário local.
+function obterValorCelula(celula) {
+    const valor = celula.value;
+
+    if (valor === null || valor === undefined) {
+        return '';
+    }
+
+    if (valor instanceof Date) {
+        const dia = String(valor.getUTCDate()).padStart(2, '0');
+        const mes = String(valor.getUTCMonth() + 1).padStart(2, '0');
+        const ano = String(valor.getUTCFullYear()).slice(-2);
+
+        return `${dia}/${mes}/${ano}`;
+    }  
+
+    if (typeof valor === 'object') {
+        if ('richText' in valor) {
+            return valor.richText.map(item => item.text).join('');
+        }
+
+        if ('text' in valor) {
+            return String(valor.text);
+        }
+
+        if ('result' in valor) {
+            return String(valor.result ?? '');
+        }
+    }
+
+    return String(valor);
+}
+
+export async function consultarMercadoInterno() {
     try {
-        // 1. Escolher o produto
+        // Lê o arquivo JSON.
+        const conteudoJSON = await fs.readFile(caminhoJSON, 'utf8');
+        const configuracao = JSON.parse(conteudoJSON);
+        const campos = configuracao['mercado-interno'];
+
+        if (!campos) {
+            throw new Error(
+                'A chave "mercado-interno" não foi encontrada no JSON.'
+            );
+        }
+
+        // Seleciona o produto.
         console.log('\n=== CONSULTA MERCADO INTERNO ===');
         console.log('1 - Óleo');
         console.log('2 - Farelo');
         console.log('3 - Grãos');
 
         const opcao = readlineSync.question(
-            '\nQual produto deseja consultar? '
+            '\nEscolha o produto: '
         ).trim();
-
-        const produtos = {
-            '1': { nome: 'ÓLEO', arquivo: 'OLEO26.xlsx' },
-            '2': { nome: 'FARELO', arquivo: 'FARELO26.xlsx' },
-            '3': { nome: 'GRÃOS', arquivo: 'GRAOS26.xlsx' }
-        };
 
         const produto = produtos[opcao];
 
@@ -31,116 +102,72 @@ export async function consultarContrato() {
             return;
         }
 
-        // 2. Abrir a planilha
         const caminhoExcel = path.join(
             pastaProjeto,
             'db',
             produto.arquivo
         );
 
+        // Abre a planilha.
         const workbook = new ExcelJS.Workbook();
         await workbook.xlsx.readFile(caminhoExcel);
 
         const planilha = workbook.worksheets[0];
 
         if (!planilha) {
-            throw new Error('Nenhuma planilha encontrada.');
+            throw new Error('Nenhuma planilha foi encontrada.');
         }
 
-        // 3. Ler o JSON
-        const caminhoJson = path.join(
-            pastaProjeto,
-            'mercado-interno.json'
-        );
-
-        const conteudoJson = await readFile(caminhoJson, 'utf8');
-        const configuracao = JSON.parse(conteudoJson);
-        const camposJson = configuracao['mercado-interno'];
-
-        if (!camposJson) {
-            throw new Error(
-                'Configuração "mercado-interno" não encontrada no JSON.'
-            );
-        }
-
-        // 4. Identificar as colunas pelo cabeçalho
-        const cabecalho = planilha.getRow(1);
+        // Mapeia cada cabeçalho real para o número da coluna.
         const colunas = {};
+        const cabecalho = planilha.getRow(1);
 
         cabecalho.eachCell((celula, numeroColuna) => {
-            const nome = String(celula.value ?? '')
-                .trim()
-                .toUpperCase();
-
-            if (nome) {
-                colunas[nome] = numeroColuna;
-            }
+            const nome = nomeRealColuna(celula.value ?? '');
+            colunas[nome] = numeroColuna;
         });
 
-        if (!colunas.NUMERO || !colunas.ANO) {
+        const colunaNumero = colunas.NUMERO;
+        const colunaAno = colunas.ANO;
+
+        if (!colunaNumero || !colunaAno) {
             throw new Error(
-                'As colunas NUMERO e ANO precisam existir na planilha.'
+                'Não foi possível localizar NUMERO e ANO nos cabeçalhos.'
             );
         }
 
-        // 5. Solicitar o contrato
-        const codigoBusca = readlineSync.question(
+        // Solicita o contrato.
+        const contrato = readlineSync.question(
             '\nDigite o contrato (ex.: 001-26): '
         ).trim();
 
-        const partes = codigoBusca.split('-');
+        const partesContrato = contrato.match(
+            /^(\d+)\s*-\s*(\d{2})$/
+        );
 
-        if (
-            partes.length !== 2 ||
-            !/^\d+$/.test(partes[0]) ||
-            !/^\d+$/.test(partes[1])
-        ) {
+        if (!partesContrato) {
             console.log(
-                'Formato inválido. Use, por exemplo, 001-26.'
+                'Contrato inválido. Utilize o formato 001-26.'
             );
             return;
         }
 
-        const [numeroBusca, anoBusca] = partes;
+        const numeroProcurado = partesContrato[1].padStart(3, '0');
+        const anoProcurado = partesContrato[2];
 
-        const normalizarNumero = valor =>
-            String(valor ?? '')
-                .trim()
-                .replace(/\.0+$/, '')
-                .padStart(3, '0');
-
-        const normalizarAno = valor => {
-            let ano = String(valor ?? '')
-                .trim()
-                .replace(/\.0+$/, '');
-
-            if (/^\d{4}$/.test(ano)) {
-                ano = ano.slice(-2);
-            }
-
-            return ano.padStart(2, '0');
-        };
-
-        const numeroProcurado = normalizarNumero(numeroBusca);
-        const anoProcurado = normalizarAno(anoBusca);
-
-        // 6. Buscar os registros pelo NUMERO e ANO
+        // Pesquisa todas as linhas correspondentes.
         const resultados = [];
 
-        for (
-            let numeroLinha = 2;
-            numeroLinha <= planilha.rowCount;
-            numeroLinha++
-        ) {
+        for (let numeroLinha = 2; numeroLinha <= planilha.rowCount; numeroLinha++) {
             const linha = planilha.getRow(numeroLinha);
 
-            const numero = normalizarNumero(
-                linha.getCell(colunas.NUMERO).text
-            );
+            const numero = obterValorCelula(
+                linha.getCell(colunaNumero)
+            ).trim().padStart(3, '0');
 
-            const ano = normalizarAno(
-                linha.getCell(colunas.ANO).text
-            );
+            const ano = obterValorCelula(
+                linha.getCell(colunaAno)
+            ).trim();
 
             if (
                 numero === numeroProcurado &&
@@ -152,101 +179,67 @@ export async function consultarContrato() {
 
         if (resultados.length === 0) {
             console.log(
-                `\nContrato ${numeroProcurado}-${anoProcurado} não encontrado.`
+                `\nContrato ${contrato} não encontrado em ${produto.nome}.`
             );
             return;
         }
 
-        console.log(
-            `\nEncontrados ${resultados.length} resultado(s).`
-        );
-
-        // 7. Exibir os resultados
-        for (let i = 0; i < resultados.length; i++) {
-            const linha = resultados[i];
+        // Exibe os resultados encontrados.
+        for (let indice = 0; indice < resultados.length; indice++) {
+            const linha = resultados[indice];
 
             console.log('\n================================');
-            console.log(`PRODUTO: ${produto.nome}`);
-            console.log(
-                `CONTRATO: ${numeroProcurado}-${anoProcurado}`
-            );
-            console.log(
-                `RESULTADO ${i + 1} DE ${resultados.length}`
-            );
-            console.log(`LINHA NO EXCEL: ${linha.number}`);
-            console.log('================================');
+            console.log(`Produto: ${produto.nome}`);
+            console.log(`Contrato: ${numeroProcurado}-${anoProcurado}`);
+            console.log(`Resultado ${indice + 1} de ${resultados.length}`);
+            console.log('================================\n');
 
-            // Índice lógico iniciado em zero
-            let indiceColuna = 0;
+            for (const [nomeCampo, mapeamento] of Object.entries(campos)) {
+                const nomesColunas = String(mapeamento)
+                    .split(',')
+                    .map(nome => nome.trim());
 
-            for (const [nomeCampo, mapeamento] of Object.entries(
-                camposJson
-            )) {
-                const nomesCampos = String(mapeamento).split(',');
-                const valores = [];
+                const valores = nomesColunas.map(nomeColuna => {
+                    const nomeNormalizado = nomeRealColuna(nomeColuna);
+                    const numeroColuna = colunas[nomeNormalizado];
 
-                // ExcelJS utiliza índices físicos começando em 1.
-                // O índice lógico começa em 0.
-                for (let j = 0; j < nomesCampos.length; j++) {
-                    const indiceExcel = indiceColuna + j + 1;
-                    const valor = linha.getCell(indiceExcel).value;
-
-                    if (
-                        valor === null ||
-                        valor === undefined ||
-                        valor === ''
-                    ) {
-                        continue;
+                    if (!numeroColuna) {
+                        throw new Error(
+                            `A coluna "${nomeColuna}" (campo ${nomeCampo}) ` +
+                            'não foi encontrada na primeira linha da planilha.'
+                        );
                     }
 
-                    let texto;
+                    return obterValorCelula(
+                        linha.getCell(numeroColuna)
+                    );
+                });
 
-                    if (valor instanceof Date) {
-                        const dia = String(valor.getDate())
-                            .padStart(2, '0');
+                const valorFinal = valores
+                    .filter(valor => valor !== '')
+                    .join(' | ');
 
-                        const mes = String(valor.getMonth() + 1)
-                            .padStart(2, '0');
-
-                        texto = `${dia}/${mes}/${valor.getFullYear()}`;
-                    } else if (
-                        typeof valor === 'object' &&
-                        valor.result !== undefined
-                    ) {
-                        texto = String(valor.result ?? '').trim();
-                    } else {
-                        texto = String(valor).trim();
-                    }
-
-                    if (texto) {
-                        valores.push(texto);
-                    }
-                }
-
-                console.log(
-                    `${nomeCampo}: ${valores.join(' | ')}`
-                );
-
-                // Avança de acordo com a quantidade de colunas
-                // declaradas para esse campo no JSON
-                indiceColuna += nomesCampos.length;
+                console.log(`${nomeCampo}: ${valorFinal}`);
             }
-            
-            // 8. Navegar entre resultados duplicados
-            if (i < resultados.length - 1) {
-                const resposta = readlineSync.question(
-                    '\nEnter = próximo resultado | Q = encerrar: '
-                ).trim().toLowerCase();
 
-                if (resposta === 'q') {
+            console.log('\n================================');
+
+            if (indice < resultados.length - 1) {
+                const resposta = readlineSync.question(
+                    '\nENTER para o próximo resultado ou Q para sair: '
+                ).trim().toUpperCase();
+
+                if (resposta === 'Q') {
                     break;
                 }
+            } else {
+                console.log('\nNão existem mais resultados para esse contrato.');
             }
         }
-
-        console.log('\nFim da consulta.');
-
     } catch (erro) {
-        console.error('\nErro na consulta:', erro.message);
+        console.error(
+            '\nErro ao consultar o Mercado Interno:',
+            erro.message
+        );
     }
 }
