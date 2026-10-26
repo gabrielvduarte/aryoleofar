@@ -2,7 +2,7 @@ import dbffile from 'dbffile';
 const { DBFFile } = dbffile;
 
 
-   export function gerar(numeroAtual) {
+    export function gerar(numeroAtual) {
         if (!Number.isInteger(numeroAtual) ||
             numeroAtual < 0 ||
             numeroAtual > 9999) {
@@ -21,8 +21,7 @@ const { DBFFile } = dbffile;
 
         const resto = fator % 11;
 
-        
-
+    
         let verificador;
 
         if (resto === 1) {

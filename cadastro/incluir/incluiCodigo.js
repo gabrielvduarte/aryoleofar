@@ -7,7 +7,7 @@ const caminho =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/db/CADCLI.xlsx';
 
 const pastaContratos = path.join(
-    path.dirname(caminho),
+    path.dirname('C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar/db/'),
     'CLI'
 );
 

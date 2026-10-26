@@ -9,14 +9,26 @@
         "QUANT": "QUANT1",
         "PRECO": "PRICE",
         "COMISSAo": "COMISSAo", 
-        "EMBARQUE": "EMBARQUE, EMBARQUE 2",
-        "PAGAMENTO": "PAGAMENTO, PAGAMENTO 2",
-        "OBS": "OBS, OBS 2, OBS 3",
+        "EMBARQUE": "EMBARQUE, EMBARQUE2",
+        "PAGAMENTO": "PAGAMENTO, PAGAMENTO2",
+        "OBS": "OBS1, OBS2, OBS3",
         "SHPMT1": "SHPMT1",
         "SHPMT2": "SHPMT2",
         "VENCTO": "VENCTO",
         "PRVISAO": "PREVISAO",
         "LIQUIDADO": "LIQUIDADO"
         
+    },
+
+    "recebimento":{
+        "RPS": "",
+        "NF": "",
+        "Recibo N°": "",
+        "DD Rec": "",
+        "Valores" : "",
+        "Liq": "",
+        "Corret": "",
+        "Liq.Total": ""
     }
+    
 }

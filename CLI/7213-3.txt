@@ -1,0 +1,7 @@
+NOME: teste 6
+ENDERECO: teste 6
+CIDADE: teste 6
+ESTADO: teste 6
+CEP: teste 6
+CGC: teste 6
+INSC: teste 6
