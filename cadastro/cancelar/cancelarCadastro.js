@@ -114,7 +114,7 @@ export async function cancelarCadastro() {
         // 6. Exibe os resultados um por vez.
         let linhaSelecionada = null;
 
-        for (let i = 0; i < resultados.length; i++) {
+        for (let i = 0; i < resultados.length; i++) { 
             const numeroLinha = resultados[i];
             const linha = planilha.getRow(numeroLinha);
 

@@ -6,16 +6,24 @@ import { incluir } from "./cadastro/incluir/incluir.js";
 import { iniciar } from "./M.I/utils.js"
 import { consultarMercadoInterno } from "./M.I/consulta.js";
 
-//Executa busca de contrato
-
-
-
+//Executar inclusão de contrato
 //incluir();
 
-//executar()
 
+
+//LER/ALTERAR contratos existentes
+executar()
+
+
+//Cancelar contrato existente
 //cancelarCadastro()
 
+
+
+//incluir contrato no MERCADO-INTERNO: OLEO, FARELO e GRÃOS
 //iniciar()
-consultarMercadoInterno()
+
+
+//Consultar contrato no MERCADO-INTERNO: OLEO, FARELO e GRÃOS
+//consultarMercadoInterno()
 

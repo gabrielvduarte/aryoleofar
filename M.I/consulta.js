@@ -217,7 +217,7 @@ export async function consultarMercadoInterno() {
 
                 const valorFinal = valores
                     .filter(valor => valor !== '')
-                    .join(' | ');
+                    .join('  ');
 
                 console.log(`${nomeCampo}: ${valorFinal}`);
             }
