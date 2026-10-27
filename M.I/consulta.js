@@ -3,6 +3,7 @@ import ExcelJS from 'exceljs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import readlineSync from 'readline-sync';
+import { incluirRecebimento } from './recebimento/recebimentos.js';
 
 const pastaProjeto =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar';
@@ -13,9 +14,9 @@ const caminhoJSON = path.join(
 );
 
 const produtos = {
-    1: { nome: 'Óleo', arquivo: 'OLEO26.xlsx' },
-    2: { nome: 'Farelo', arquivo: 'FARE26.xlsx' },
-    3: { nome: 'Grãos', arquivo: 'SOJA26.xlsx' }
+    1: { nome: 'OLEO', arquivo: 'OLEO26.xlsx' },
+    2: { nome: 'FARELO', arquivo: 'FARE26.xlsx' },
+    3: { nome: 'SOJA', arquivo: 'SOJA26.xlsx' }
 };
 
 // Normaliza nomes de cabeçalhos para compará-los.
@@ -96,6 +97,7 @@ export async function consultarMercadoInterno() {
         ).trim();
 
         const produto = produtos[opcao];
+        console.log(produto.nome)
 
         if (!produto) {
             console.log('Opção inválida.');
@@ -236,6 +238,12 @@ export async function consultarMercadoInterno() {
                 console.log('\nNão existem mais resultados para esse contrato.');
             }
         }
+
+        const rec = readlineSync.question(
+                    '\nDeseja criar um recebimento para esse contrato? (s/n): ')
+            if(rec.trim().toLowerCase() === "s"){
+                await incluirRecebimento(produto.nome, contrato);
+            }
     } catch (erro) {
         console.error(
             '\nErro ao consultar o Mercado Interno:',

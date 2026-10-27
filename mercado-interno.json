@@ -21,14 +21,14 @@
     },
 
     "recebimento":{
-        "RPS": "",
-        "NF": "",
-        "Recibo N°": "",
-        "DD Rec": "",
-        "Valores" : "",
-        "Liq": "",
-        "Corret": "",
-        "Liq.Total": ""
+        "RPS": "RPS",
+        "NF": "NF",
+        "Recibo N°": "Rec",
+        "DD Rec": "DD Rec",
+        "Valores" : "VALOR_TOT",
+        "Liq": "VALOR_COMM",
+        "Corret": "VALOR_CORR",
+        "Liq.Total": "VALOR_LIQ"
     }
     
 }

@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import readlineSync from 'readline-sync';
 import ExcelJS from 'exceljs';
 
+
 const pastaProjeto =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar';
 
@@ -173,6 +174,8 @@ async InclusaoDeContratoNoMI() {
     }
 
     await workbook.xlsx.writeFile(this.caminhoExcel);
+    await perguntarCriarRecebimento('OLEO', numero, ano);
+
 
     console.log('Contrato salvo com sucesso!');
     console.log(`Linha preenchida: ${novaLinha}`);

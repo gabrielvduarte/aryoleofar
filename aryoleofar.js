@@ -12,7 +12,7 @@ import { consultarMercadoInterno } from "./M.I/consulta.js";
 
 
 //LER/ALTERAR contratos existentes
-executar()
+//executar()
 
 
 //Cancelar contrato existente
@@ -25,5 +25,4 @@ executar()
 
 
 //Consultar contrato no MERCADO-INTERNO: OLEO, FARELO e GRÃOS
-//consultarMercadoInterno()
-
+consultarMercadoInterno()
