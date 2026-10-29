@@ -26,3 +26,5 @@ import { consultarMercadoInterno } from "./M.I/consulta.js";
 
 //Consultar contrato no MERCADO-INTERNO: OLEO, FARELO e GRÃOS
 consultarMercadoInterno()
+
+

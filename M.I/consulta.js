@@ -3,6 +3,7 @@ import ExcelJS from 'exceljs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import readlineSync from 'readline-sync';
+import { editarContrato } from './editarContrato.js';
 import { incluirRecebimento } from './recebimento/recebimentos.js';
 
 const pastaProjeto =
@@ -97,8 +98,7 @@ export async function consultarMercadoInterno() {
         ).trim();
 
         const produto = produtos[opcao];
-        console.log(produto.nome)
-
+        
         if (!produto) {
             console.log('Opção inválida.');
             return;
@@ -238,6 +238,11 @@ export async function consultarMercadoInterno() {
                 console.log('\nNão existem mais resultados para esse contrato.');
             }
         }
+
+        const edit = readlineSync.question('\nDeseja editar esse contrato? (s/n): ')
+         if(edit.trim().toLowerCase() === "s"){
+                await editarContrato(produto.nome, contrato);
+            }
 
         const rec = readlineSync.question(
                     '\nDeseja criar um recebimento para esse contrato? (s/n): ')
