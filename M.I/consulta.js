@@ -3,8 +3,8 @@ import ExcelJS from 'exceljs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import readlineSync from 'readline-sync';
-import { editarContrato } from './editarContrato.js';
-import { incluirRecebimento } from './recebimento/recebimentos.js';
+import { contratoMi } from './utils.js';
+
 
 const pastaProjeto =
     'C:/Users/Roque Savioli/Desktop/arquivo-projeto/aryoleofar';
@@ -237,18 +237,8 @@ export async function consultarMercadoInterno() {
             } else {
                 console.log('\nNão existem mais resultados para esse contrato.');
             }
-        }
-
-        const edit = readlineSync.question('\nDeseja editar esse contrato? (s/n): ')
-         if(edit.trim().toLowerCase() === "s"){
-                await editarContrato(produto.nome, contrato);
-            }
-
-        const rec = readlineSync.question(
-                    '\nDeseja criar um recebimento para esse contrato? (s/n): ')
-            if(rec.trim().toLowerCase() === "s"){
-                await incluirRecebimento(produto.nome, contrato);
-            }
+        };
+        contratoMi(produto.nome, contrato)
     } catch (erro) {
         console.error(
             '\nErro ao consultar o Mercado Interno:',

@@ -1,9 +1,11 @@
 import { cancelarCadastro } from "./cadastro/cancelar/cancelarCadastro.js";
 import { executar } from "./cadastro/alterar-ler/ler.js";
 import { incluir } from "./cadastro/incluir/incluir.js";
-import readlineSync from 'readline-sync';
+import  readlineSync  from 'readline-sync';
 import { iniciar } from "./M.I/utils.js"
 import { consultarMercadoInterno } from "./M.I/consulta.js";
+
+
 
 
 async function Execute(){
